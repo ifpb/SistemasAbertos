@@ -24,7 +24,7 @@
     * Aclamado programador, seus maiores feitos incluem Emacs (e o GNU Emacs, mais tarde), o GNU C Compiler e o GNU Debugger
     * É o autor da GNU General Public License (GPL), a licença livre mais usada no mundo
 
-![richard stallman](https://upload.wikimedia.org/wikipedia/commons/2/28/Richard_Stallman_at_LibrePlanet_2019.jpg)
+![richard stallman](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Richard_Matthew_Stallman.jpeg/330px-Richard_Matthew_Stallman.jpeg)
 
 ## PROJETO GNU
 
