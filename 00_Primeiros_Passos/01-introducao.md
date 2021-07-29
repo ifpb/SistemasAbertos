@@ -142,6 +142,7 @@ embora a maioria dos programas comerciais sejam proprietários
 ## Linux
 * O Kernel Linux foi criado originalmente por Linus Torvalds na Universidade de Helsinki na Finlândia, em meados de 1991
     * Kernel é o núcleo do sistema operacional
+
 ![Torvalds](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Linus_Torvalds.jpeg/175px-Linus_Torvalds.jpeg)
 * Torvalds começou o seu desenvolvimento utilizando como plataforma o sistema MINIX-386, que também é um clone do UNIX de propósito didático
 * As primeiras versões já contavam com applicativos GNU, como: 
