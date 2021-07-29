@@ -199,13 +199,9 @@ que se pode precisar
     * Há diversas distribuições diferentes, cada uma se adequando a um perfil diferente de usuário
 
 ## Algumas distribuições LINUX
-![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png) ![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png) ![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png) ![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
-![SLACKWARE](https://vulners.com/static/img/slackware.png) ![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
-![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png) ![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)![MANDRAKE](https://cdn.iconscout.com/icon/free/png-256/mandrake-202403.png)
-[MANDRIVA](https://icons.iconarchive.com/icons/tatice/operating-systems/256/Mandriva-icon.png)
 
-
-## Linux Debian
+### Linux Debian
+![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
 * Distribuição Linux mais “pura”
     * Desenvolvida exclusivamente por voluntários, sem vínculos com nenhuma empresa, mantendo o espírito do software livre 
 * Distribuição Linux mais estável
@@ -214,21 +210,21 @@ que se pode precisar
     * Distribuição mais usada em servidores
 * Usada como base para o desenvolvimento de um sem número de distribuições, entre elas o Ubuntu e o Kurumin
 
-## Linux Ubuntu
-
+### Linux Ubuntu
+![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
 * Baseado no Debian, incorpora melhorias e correções, de forma a proporcionar um sistema bastante estável e fácil de usar 
 * Em pouco mais de um ano, o Ubuntu se tornou uma das distribuições Linux mais populares
 * Utiliza o Gnome como interface padrão, mas é possível instalar os pacotes do KDE através do "kubuntu-desktop"
 
-## Linux KNOPPIX
-
+### Linux KNOPPIX
+![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
 * Knoppix é uma distribuição GNU/Linux baseado no Debian e gravado em CD bootável (Live CD).
 * Realiza detecção automática de hardware, suporta vários dispositivos gráficos, de som, SCSI, USB e outros periféricos.
 * Ao dar o boot do CD do Knoppix não é preciso instalar nada em seu disco rígido. Devido à sua descompressão, que acontece a partir do CD, estão disponíveis mais de 2 GB de aplicativos, desde aplicações de escritório a ferramentas de sistema. 
 * O Knopppix foi um dos primeiros live cds de GNU/Linux.
 
-## Linux Kurumin
-
+### Linux Kurumin
+![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
 * O Kurumin Linux é uma distribuição Linux baseada no Knoppix, e que mantém o mesmo sistema de detecção de hardware desta distribuição. 
 * Criado por Carlos E. Morimoto, o Kurumin foi projetado para que fosse bem mais compacto, cabendo em um mini-CD de 80 mm
     * Kurumin vem da língua Tupi, onde Curumim significa homem jovem, em 
@@ -236,8 +232,8 @@ uma alusão a uma distribuição Linux mais leve e simples. A letra K no
 início da palavra é uma referência ao Knoppix.
 * Distribuição Linux bem popular no Brasil
 
-## Linux Slackware
-
+### Linux Slackware
+![SLACKWARE](https://vulners.com/static/img/slackware.png)
 * O Slackware é uma distribuição Linux das mais famosas
 * Criada por Patrick Volkerding, teve sua primeira versão lançada em Abril de 1992
 * Segue filosofia rígida: manter a distribuição o mais parecida possível com o UNIX
@@ -245,15 +241,16 @@ início da palavra é uma referência ao Knoppix.
     * possui poucos componentes e tem arquivos de configuração claros
 * Recomendada para usuários mais experientes
 
-## Linux SuSE
+### Linux SuSE
+![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
 * A SuSE é uma empresa alemã que é uma das maiores influências do Linux no mundo 
 * A SuSE baseia-se originalmente no Slackware 
 * Oferece uma ferramenta de configuração do sistema chamada YaST, que facilita e muito mexer nas configurações da distribuição
 * Atualmente o SuSE é utilizado por muitas máquinas na Europa, incluindo instituições educacionais e governamentais
 * Sem dúvida é uma distribuição notável, porém não muito usada no Brasil
 
-## Linux RedHat
-
+### Linux RedHat
+![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
 * Criada pela empresa americana Red Hat, foi uma das pioneiras no 
 tratamento sério do Linux. 
 * Criadora do RPM, o gerenciador de pacotes mais usado atualmente no 
@@ -264,26 +261,28 @@ mas possui influência a nível mundial.
 * Sua equipe não ajuda na distribuição em si somente, mas também no próprio Linux. 
 * Várias distribuições começaram se baseando nesta distribuição, o que a faz uma boa base para todos.
 
-## Linux Fedora Core
-
+### Linux Fedora Core
+![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
 * O Fedora é o sucessor do antigo Red Hat Desktop, descontinuado em 2003
 * Combina os esforços da RedHat, com um bom número de voluntários e usuários fiéis. 
 * Graças a inovações como o SeLinux, é uma distribuição muito usada em servidores 
 * Também possui um público fiel para Desktop, em função da sua facilidade de uso
 
-## Linux Mandrake
+### Linux Mandrake
+![MANDRAKE](https://cdn.iconscout.com/icon/free/png-256/mandrake-202403.png)
 * Esta empresa francesa resolveu apostar no Linux como um sistema fácil para todos 
 * Baseada na americana Red Hat, o Mandrake vem com vários programas de configuração fáceis de serem utilizados e bem úteis
 * Durante o crescimento mundial do Linux, o Mandrake adquiriu muitos fãs e uma popularidade incrível, principalmente na América do Norte, através de sua interface fácil e dinamismo
 
-## Conectiva Linux
+### Conectiva Linux
 * Criada pela empresa brasileira Conectiva, foi denominada inicialmente de Parolin, e não continha muita coisa além de traduções da distribuição Red Hat. 
 * O seu desenvolvimento cresceu e resolveram partir para um rumo próprio,  fazendo suas próprias alterações e ideologias na distribuição em uma rota diversa da empresa americana Red Hat. Então surgiu o Conectiva Linux.
 * A partir de 1999, com o aumento do uso do Linux no Brasil, o 
 Conectiva Linux, que já estava na sua versão 3.0, ficou muito popular 
 entre os usuários brasileiros, provando ser tão boa quanto as estrangeiras.
 
-## Linux Mandriva
+### Linux Mandriva
+![MANDRIVA](https://lh3.googleusercontent.com/-ZfchwhBCQUA/YG8UvQFJBZI/AAAAAAAAfAA/Txppx1ajf64WAf96sJLtIvcDcysRJ4qugCLcBGAsYHQ/s16000/mandriva.png)
 * O Mandriva Linux é resultado da fusão ocorrida em 24 de fevereiro de 2005 entre a MandrakeSoft, uma das principais distribuições Linux da 
 Europa e a Conectiva
 * A Mandriva possui escritórios nos Estados Unidos, França e Brasil, tem 
