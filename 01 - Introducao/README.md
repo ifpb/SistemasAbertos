@@ -1,4 +1,4 @@
-#INTRODUÇÃO AO LINUX
+# INTRODUÇÃO AO LINUX
 
 * Conceitos de software livre
 * Histórico do sistema UNIX
