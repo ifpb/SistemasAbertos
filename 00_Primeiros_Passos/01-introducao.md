@@ -1,5 +1,5 @@
 # INTRODUÇÃO AO LINUX
-Prof. Leônicdas Lima Júnior
+Prof. Leônidas Lima Júnior
 
 leonidas.lima@gmail.com
 
