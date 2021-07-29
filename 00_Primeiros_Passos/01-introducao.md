@@ -28,8 +28,26 @@
 ## PROJETO GNU
 
 * O que é GNU?
-
-GNU significa “Gnu is Not Unix”, é o nome de um sistema operacional completo compatível com o UNIX
+    * GNU significa “Gnu is Not Unix”, é o nome de um sistema operacional completo compatível com o UNIX
 * Por que do GNU?
+    * O Projeto GNU é a concretização de uma filosofia, a filosofia do Software Livre
 
-O Projeto GNU é a concretização de uma filosofia, a filosofia do Software Livre
+## Projeto GNU e Software Livre
+
+* Software Livre é uma questão de liberdade:
+    * Liberdade de usar os programas para qualquer propósito
+    * Liberdade de modificar os programas de acordo com suas necessidades
+    * Liberdade de redistribuir cópias seja grátis ou não
+    * Liberdade de distribuir versões modificadas, assim toda a comunidade pode usufruir dos benefícios introduzidos
+
+## Software de Domínio Público
+
+* Software Livre é diferente de software de domínio público
+    * O primeiro, quando utilizado em combinação com licenças típicas (como GPL e BSD), garante direitos autorais do programador ou organização que o criou
+    * No segundo, o autor do software renuncia à propriedade do programa e este se torna um bem comum
+
+## Copylefted Software
+
+* São programas que colocam nas suas licenças uma cláusula que impede aos 
+distribuidores incluirem novas cláusulas restritivas às licenças de suas distribuições. Isso garante que todas as cópias do programa distribuído continuam Free Software, mesmo se houver modificações
+* No projeto GNU todos os programas são Copylefted, essa é a única forma de garantir o espírito de liberdade associado ao termo “Free Software”
