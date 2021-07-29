@@ -119,3 +119,38 @@ embora a maioria dos programas comerciais sejam proprietários
 * 1998 - UNIX 98 branding
 * 1999 - 30 anos de UNIX
 * 2001 - Single UNIX Spec, version 3. Unificação total
+
+## A iniciativa GNU
+
+* O projeto GNU teve início em 1983 com a divulgação de um manifesto escrito por Richard Stallman
+    * anunciava a intenção da criação de todo um sistema operacional (compatível com UNIX) utilizando única e exclusivamente programas livres (Free Software)
+    * Stallman convocava programadores e empresas a investirem na sua idéia, contribuindo com dinheiro, máquinas e tempo
+
+## Projeto GNU
+
+* Em janeiro de 1984, Stallman deixa o laboratório de Inteligência Artificial do MIT e dá início a implementação dos programas GNU
+* Em 1985, como mais pessoas já estavam envolvidas no projeto, era hora de buscar mais investimentos a fim de poder manter um grupo permanente de desenvolvimento 
+    * Foi criada a Free Software Foundation (FSF)
+
+## Projeto GNU e Free Software
+
+* O objetivo do GNU é dar liberdade ao usuário, não apenas ser popular
+    * Os programas GNU utilizam a licença GPL. Ela assegura que programas GNU sejam Copylefted
+* Algumas bibliotecas GNU utilizam um tipo diferente de licença Copylefted, chamada de Library General Public License ou LGPL
+    * Permite que programas proprietários sejam “linkados” com as funções GNU
+
+## Linux
+* O Kernel Linux foi criado originalmente por Linus Torvalds na Universidade de Helsinki na Finlândia, em meados de 1991
+    * Kernel é o núcleo do sistema operacional
+![Torvalds](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Linus_Torvalds.jpeg/175px-Linus_Torvalds.jpeg)
+* Torvalds começou o seu desenvolvimento utilizando como plataforma o sistema MINIX-386, que também é um clone do UNIX de propósito didático
+* As primeiras versões já contavam com applicativos GNU, como: 
+bash, gcc, gnu-make, gnu-sed, compress etc.
+* Desde o início Torvalds comunicava o seu progresso no Newsgroup comp.os.minix, conquistando rapidamente simpatizantes e colaboradores
+* Logo foi criada uma lista de discussão específica para o Linux 
+(linux-activists@ niksula.hut.fi)
+* Após apenas um ano, o Torvalds já podia continuar o seu desenvolvimento sem o auxílio do MINIX, vários aplicativos estavam disponíveis inclusive o X Window
+* Criado para rodar na plataforma PC x86 32-bits, já está disponível na maioria das plataformas: Alpha, SPARC, PowerPC e Intel IA-64
+* Seu contínuo desenvolvimento visa total compatibilidade com as especificações POSIX e Single UNIX Specification
+* Linus Torvalds coordena o desenvolvimento, divulgando os recentes aprimoramentos através do site http://www.kernel.org/
+
