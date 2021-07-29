@@ -275,6 +275,7 @@ mas possui influência a nível mundial.
 * Durante o crescimento mundial do Linux, o Mandrake adquiriu muitos fãs e uma popularidade incrível, principalmente na América do Norte, através de sua interface fácil e dinamismo
 
 ### Conectiva Linux
+![CONECTIVA](https://archive.org/download/tucows_155612_Conectiva_Linux/conectiva.jpg)
 * Criada pela empresa brasileira Conectiva, foi denominada inicialmente de Parolin, e não continha muita coisa além de traduções da distribuição Red Hat. 
 * O seu desenvolvimento cresceu e resolveram partir para um rumo próprio,  fazendo suas próprias alterações e ideologias na distribuição em uma rota diversa da empresa americana Red Hat. Então surgiu o Conectiva Linux.
 * A partir de 1999, com o aumento do uso do Linux no Brasil, o 
