@@ -156,3 +156,57 @@ bash, gcc, gnu-make, gnu-sed, compress etc.
 * Seu contínuo desenvolvimento visa total compatibilidade com as especificações POSIX e Single UNIX Specification
 * Linus Torvalds coordena o desenvolvimento, divulgando os recentes aprimoramentos através do site http://www.kernel.org/
 
+## GNU/Linux
+
+* Em meados de 1990 o sistema GNU estava praticamente completo faltando um último componente, o Kernel.
+* Foi decidido implementar um Kernel baseado no Mach (Universidade Cornegie Mellow e e Universidade de Utah)
+* O novo GNU Kernel recebeu o nome de HURD, entretanto, devido a dificuldades técnicas o HURD só veio ficar disponível para uso em 2003
+* Em 1992 um outro Kernel Free Software, muito mais simples, já estava dando bons resultados. Foi só uma questão de tempo unir o Kernel Linux ao sistema GNU, daí o nome GNU/Linux
+* Apesar de nos referirmos às  várias distribuições como Linux, na verdade “Linux” refere-se somente ao núcleo do sistema operacional. Sendo que a maior parte é composta por programas e aplicações GNU.
+
+## Vantagens do GNU/Linux
+
+* É tão seguro e estável quanto qualquer outro sistema UNIX
+* Roda virtualmente em qualquer plataforma, principalmente sobre PCs 
+(baixo custo)
+* Costuma ser mais rápido que outros sistemas UNIX, quando usado em PCs
+* Geralmente as distribuições são bastante completas, contendo tudo o 
+que se pode precisar
+* É Free Software, é grátis, é Copylefted
+* O código fonte está disponível, sendo portanto possível configurá-lo em qualquer nível, inclusive modificá-lo de acordo com as necessidades
+* É uma ótima fonte de conhecimento para estudantes, empresas e interessados em computação em geral
+
+## Vantagens de ser UNIX
+
+* Alternativa poderosa e econômica para qualquer aplicação que envolva computadores
+    * Atualmente máquinas GNU/Linux são responsáveis por uma série de aplicações comerciais
+* Segurança
+* Estabilidade
+* Multi-usuário, multi-processo
+* Escalabilidade
+* Servidores podem suportar diversos tipos de clientes
+* Completo com todos os recursos de rede
+* Baseado em padrões abertos
+* Maturidade: 40 anos de existência
+* Problemas e furos de segurança são detectados e corrigidos mais rapidamente que qualquer outro Sistema
+
+## Distribuições LINUX
+
+* Kernel do LINUX é único
+* Conjunto de ferramentas agregadas ao Kernel pode variar
+    * Normalmente estas ferramentas são baseadas na plataforma GNU
+    * Cada “empacotamento” diferente forma uma “Distribuição LINUX”
+    * Há diversas distribuições diferentes, cada uma se adequando a um perfil diferente de usuário
+
+## Algumas distribuições LINUX
+![DEBIAN](https://www.debian.org/Pics/debian-logo-1024x576.png) ![UBUNTU](https://programadoresbrasil.com.br/wp-content/uploads/2020/04/ubuntu-logo-1200x884.png) ![KNOPPIX](https://www.knopper.net/pics/knoppix-logo.gif)
+![SLACKWARE](https://www.logolynx.com/images/logolynx/a6/a6f2c19b7a7c93541c980cfc20e1935c.jpeg) ![SUSE](https://lh3.googleusercontent.com/proxy/Z28VaANyA9-kDV4AkUxpEo4xkZdM-BZMqjqHGw3oSvDlPMvfWuGAP30IOHf0FTjiT6nheppWyWqAY4hyCCnZwA5iDUGbsDg4ee6GT_mSce2PB_jblmho7uuR)
+![REDHAT](https://c1.neweggimages.com/ProductImage/32-938-045-01.jpg) ![FEDORA](https://3.bp.blogspot.com/-kpJv8FekOcU/WPUQ7yNOYlI/AAAAAAAABGI/tJftZpkTo24qj4vu9WH-MuEk8W-6n1w7ACLcB/s1600/k.png)
+
+## Linux Debian
+* Distribuição Linux mais “pura”
+    * Desenvolvida exclusivamente por voluntários, sem vínculos com nenhuma empresa, mantendo o espírito do software livre 
+* Distribuição Linux mais estável
+    * Todas as novas versões são exaustivamente testadas antes de serem consideradas estáveis 
+    * ◦Preocupação principal é sempre a estabilidade 
+    * Distribuição mais usada em servidores
