@@ -199,9 +199,9 @@ que se pode precisar
     * Há diversas distribuições diferentes, cada uma se adequando a um perfil diferente de usuário
 
 ## Algumas distribuições LINUX
-![DEBIAN](https://www.debian.org/Pics/debian-logo-1024x576.png) ![UBUNTU](https://programadoresbrasil.com.br/wp-content/uploads/2020/04/ubuntu-logo-1200x884.png) ![KNOPPIX](https://www.knopper.net/pics/knoppix-logo.gif)
-![SLACKWARE](https://www.logolynx.com/images/logolynx/a6/a6f2c19b7a7c93541c980cfc20e1935c.jpeg) ![SUSE](https://lh3.googleusercontent.com/proxy/Z28VaANyA9-kDV4AkUxpEo4xkZdM-BZMqjqHGw3oSvDlPMvfWuGAP30IOHf0FTjiT6nheppWyWqAY4hyCCnZwA5iDUGbsDg4ee6GT_mSce2PB_jblmho7uuR)
-![REDHAT](https://c1.neweggimages.com/ProductImage/32-938-045-01.jpg) ![FEDORA](https://3.bp.blogspot.com/-kpJv8FekOcU/WPUQ7yNOYlI/AAAAAAAABGI/tJftZpkTo24qj4vu9WH-MuEk8W-6n1w7ACLcB/s1600/k.png)
+![DEBIAN](https://www.softexia.com/wp-content/uploads/2017/02/Debian_logo.png) ![UBUNTU](https://martinsblog.dk/wp-content/uploads/2020/07/ubuntu-logo.png) ![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
+![SLACKWARE](https://vulners.com/static/img/slackware.png) ![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
+![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png) ![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
 
 ## Linux Debian
 * Distribuição Linux mais “pura”
