@@ -25,3 +25,11 @@
 
 ![richard stallman](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Richard_Matthew_Stallman.jpeg/1200px-Richard_Matthew_Stallman.jpeg)
 
+## PROJETO GNU
+
+* O que é GNU?
+
+GNU significa “Gnu is Not Unix”, é o nome de um sistema operacional completo compatível com o UNIX
+* Por que do GNU?
+
+O Projeto GNU é a concretização de uma filosofia, a filosofia do Software Livre
