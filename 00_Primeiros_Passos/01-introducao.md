@@ -98,6 +98,7 @@ embora a maioria dos programas comerciais sejam proprietários
 ## HISTORIA DO SISTEMA UNIX
 
 * 1969 - Ken Thompson e Dennis Ritchie entre outros começaram o trabalho usando um velho PDP-7 no Bells labs, nascia o UNIX
+
 ![ThompsonRitchie](http://1.bp.blogspot.com/-gVmxTCp5bhI/Tz4UZaFqIkI/AAAAAAAAAC8/p-A5UNK7ikY/s1600/thompson-ritchie.jpg)
 * 1971 - Primeira Edição
 * 1973 - Quarta Edição. Reescrito em C
@@ -142,6 +143,7 @@ embora a maioria dos programas comerciais sejam proprietários
 ## Linux
 * O Kernel Linux foi criado originalmente por Linus Torvalds na Universidade de Helsinki na Finlândia, em meados de 1991
     * Kernel é o núcleo do sistema operacional
+    
 ![Torvalds](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Linus_Torvalds.jpeg/175px-Linus_Torvalds.jpeg)
 * Torvalds começou o seu desenvolvimento utilizando como plataforma o sistema MINIX-386, que também é um clone do UNIX de propósito didático
 * As primeiras versões já contavam com applicativos GNU, como: 
