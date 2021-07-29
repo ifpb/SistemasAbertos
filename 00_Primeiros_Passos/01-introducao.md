@@ -1,7 +1,5 @@
 # INTRODUÇÃO AO LINUX
-<span>Prof. Leônidas Lima Júnior</span>
-<span>leonidas.lima@gmail.com</span>
-<span>2011</span>
+<span>Prof. Leônidas Lima Júnior<br>leonidas.lima@gmail.com<br>2011</span>
 
 ## SUMÁRIO
 
