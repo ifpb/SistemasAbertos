@@ -1,2 +1,2 @@
 # SistemasAbertos
-Repositório com material das disciplinas de Sistemas Abertos do IFPB (ISA, PSA e ASA)
+Repositório com material da disciplinas de Introdução a Sistemas Abertos do IFPB (ISA)
