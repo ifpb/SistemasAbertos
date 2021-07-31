@@ -225,14 +225,11 @@ que se pode precisar
 * Baseadas em [Pacman](https://pt.wikipedia.org/wiki/Pacman_(gerenciador_de_pacotes)
     * ArchLinux
     * Manjaro
-    
 
 * Baseadas em [Slackware'sPMS/pkgtools]()
     * Slackware
 
-## Linux Debian
-
-![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
+## Linux Debian <br> ![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
 
 * Distribuição Linux mais “pura”
     * Desenvolvida exclusivamente por voluntários, sem vínculos com nenhuma empresa, mantendo o espírito do software livre 
@@ -244,9 +241,7 @@ que se pode precisar
 
 ![DebianScreen](https://upload.wikimedia.org/wikipedia/commons/f/fa/Debian10_Gnome.png)
 
-## Linux Ubuntu
-
-![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
+## Linux Ubuntu <br> ![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
 
 * Baseado no Debian, incorpora melhorias e correções, de forma a proporcionar um sistema bastante estável e fácil de usar 
 * Em pouco mais de um ano, o Ubuntu se tornou uma das distribuições Linux mais populares
@@ -254,18 +249,15 @@ que se pode precisar
 
 ![UbuntuScreen](https://media.itpro.co.uk//image/upload/v1600168930/itpro/Reviews/PC%20Pro/Linux%20distros%20labs/Ubuntu_Linux_review_1.jpg)
 
-## Linux KNOPPIX
-
-![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
+## Linux KNOPPIX <br> ![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
 
 * Knoppix é uma distribuição GNU/Linux baseado no Debian e gravado em CD bootável (Live CD).
 * Realiza detecção automática de hardware, suporta vários dispositivos gráficos, de som, SCSI, USB e outros periféricos.
 * Ao dar o boot do CD do Knoppix não é preciso instalar nada em seu disco rígido. Devido à sua descompressão, que acontece a partir do CD, estão disponíveis mais de 2 GB de aplicativos, desde aplicações de escritório a ferramentas de sistema. 
 * O Knopppix foi um dos primeiros live cds de GNU/Linux.
 
-## Linux Kurumin
+## Linux Kurumin <br> ![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
 
-![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
 * O Kurumin Linux é uma distribuição Linux baseada no Knoppix, e que mantém o mesmo sistema de detecção de hardware desta distribuição. 
 * Criado por Carlos E. Morimoto, o Kurumin foi projetado para que fosse bem mais compacto, cabendo em um mini-CD de 80 mm
     * Kurumin vem da língua Tupi, onde Curumim significa homem jovem, em 
@@ -273,15 +265,11 @@ uma alusão a uma distribuição Linux mais leve e simples. A letra K no
 início da palavra é uma referência ao Knoppix.
 * Distribuição Linux bem popular no Brasil
 
-## SparkyLinux
-
-![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
+## SparkyLinux <br> ![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
 
 ![sparkyScreen](https://upload.wikimedia.org/wikipedia/commons/a/a2/VirtualBox_SparkyLinux_5.14_LXQT_08_04_2021_20_52_50.png)
 
-## Linux Mint
-
-![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
+## Linux Mint <br> ![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
 
 ![mintScreen](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png/1200px-VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png)
 
@@ -292,9 +280,7 @@ início da palavra é uma referência ao Knoppix.
 
 ![popScreen](https://www.jeremymorgan.com/images/pop-os-linux/pop-os-linux-og.jpg)
 
-## Linux RedHat
-
-![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
+## Linux RedHat <br> ![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
 
 * Criada pela empresa americana Red Hat, foi uma das pioneiras no 
 tratamento sério do Linux. 
@@ -308,9 +294,7 @@ mas possui influência a nível mundial.
 
 ![REDHAT](https://upload.wikimedia.org/wikipedia/commons/c/c3/VirtualBox_RHEL_8_07_04_2021_21_22_14.png)
 
-## Linux Fedora Core
-
-![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
+## Linux Fedora Core <br> ![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
 
 * O Fedora é o sucessor do antigo Red Hat Desktop, descontinuado em 2003
 * Combina os esforços da RedHat, com um bom número de voluntários e usuários fiéis. 
