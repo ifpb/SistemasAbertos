@@ -26,7 +26,7 @@ Atualizado por Vinicius Centurion em 2021
 
 ## RICHARD STALLMAN
 
-* Famoso hacker, fundador do movimento free software, do projeto GNU, e da Free Software Foundation.
+* Famoso hacker, fundador do movimento free software, do projeto GNU, e da [Free Software Foundation](https://www.fsf.org/about/).
     * Aclamado programador, seus maiores feitos incluem Emacs (e o GNU Emacs, mais tarde), o GNU C Compiler e o GNU Debugger
     * É o autor da GNU General Public License (GPL), a licença livre mais usada no mundo
 
@@ -129,7 +129,7 @@ embora a maioria dos programas comerciais sejam proprietários
 
 ## A iniciativa GNU
 
-* O projeto GNU teve início em 1983 com a divulgação de um manifesto escrito por Richard Stallman
+* O projeto GNU teve início em 1983 com a divulgação de um [manifesto] (https://www.gnu.org/gnu/manifesto.html) escrito por Richard Stallman
     * anunciava a intenção da criação de todo um sistema operacional (compatível com UNIX) utilizando única e exclusivamente programas livres (Free Software)
     * Stallman convocava programadores e empresas a investirem na sua idéia, contribuindo com dinheiro, máquinas e tempo
 
@@ -229,7 +229,9 @@ que se pode precisar
 * Baseadas em [Slackware'sPMS/pkgtools]()
     * Slackware
 
-## Linux Debian <br> ![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
+## Linux Debian 
+
+![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
 
 * Distribuição Linux mais “pura”
     * Desenvolvida exclusivamente por voluntários, sem vínculos com nenhuma empresa, mantendo o espírito do software livre 
@@ -241,7 +243,9 @@ que se pode precisar
 
 ![DebianScreen](https://upload.wikimedia.org/wikipedia/commons/f/fa/Debian10_Gnome.png)
 
-## Linux Ubuntu <br> ![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
+## Linux Ubuntu 
+
+![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
 
 * Baseado no Debian, incorpora melhorias e correções, de forma a proporcionar um sistema bastante estável e fácil de usar 
 * Em pouco mais de um ano, o Ubuntu se tornou uma das distribuições Linux mais populares
@@ -249,14 +253,18 @@ que se pode precisar
 
 ![UbuntuScreen](https://media.itpro.co.uk//image/upload/v1600168930/itpro/Reviews/PC%20Pro/Linux%20distros%20labs/Ubuntu_Linux_review_1.jpg)
 
-## Linux KNOPPIX <br> ![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
+## Linux KNOPPIX
+
+![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
 
 * Knoppix é uma distribuição GNU/Linux baseado no Debian e gravado em CD bootável (Live CD).
 * Realiza detecção automática de hardware, suporta vários dispositivos gráficos, de som, SCSI, USB e outros periféricos.
 * Ao dar o boot do CD do Knoppix não é preciso instalar nada em seu disco rígido. Devido à sua descompressão, que acontece a partir do CD, estão disponíveis mais de 2 GB de aplicativos, desde aplicações de escritório a ferramentas de sistema. 
 * O Knopppix foi um dos primeiros live cds de GNU/Linux.
 
-## Linux Kurumin <br> ![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
+## Linux Kurumin 
+
+![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
 
 * O Kurumin Linux é uma distribuição Linux baseada no Knoppix, e que mantém o mesmo sistema de detecção de hardware desta distribuição. 
 * Criado por Carlos E. Morimoto, o Kurumin foi projetado para que fosse bem mais compacto, cabendo em um mini-CD de 80 mm
@@ -265,22 +273,34 @@ uma alusão a uma distribuição Linux mais leve e simples. A letra K no
 início da palavra é uma referência ao Knoppix.
 * Distribuição Linux bem popular no Brasil
 
-## SparkyLinux <br> ![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
+## SparkyLinux
+
+![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
+
+* Sistema linux leve baseado em DEBIAN direcionado a desktops. Sua primeira versão foi lançada em maio de 2012, enquanto seu último lançamento ocorreu em outubro de 2020.
+* Tem como principais características ser leve, rapido e personalivél.
+* Em geral, o Sparky não é voltado para iniciantes em Linux, mas sim para usuários com algum conhecimento em Linux.
 
 ![sparkyScreen](https://upload.wikimedia.org/wikipedia/commons/a/a2/VirtualBox_SparkyLinux_5.14_LXQT_08_04_2021_20_52_50.png)
 
-## Linux Mint <br> ![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
+## Linux Mint
+
+![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
 
 ![mintScreen](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png/1200px-VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png)
 
-## Pop!_OS <br> ![POPOS](https://b.thumbs.redditmedia.com/lsvm58KI2GuT8zdkdV2FWfjZ4Jk3MqTMViDcrc2g3Ko.png) 
+## Pop!_OS
+
+![POPOS](https://b.thumbs.redditmedia.com/lsvm58KI2GuT8zdkdV2FWfjZ4Jk3MqTMViDcrc2g3Ko.png) 
 
 
 
 
 ![popScreen](https://www.jeremymorgan.com/images/pop-os-linux/pop-os-linux-og.jpg)
 
-## Linux RedHat <br> ![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
+## Linux RedHat 
+
+![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
 
 * Criada pela empresa americana Red Hat, foi uma das pioneiras no 
 tratamento sério do Linux. 
@@ -294,7 +314,9 @@ mas possui influência a nível mundial.
 
 ![REDHAT](https://upload.wikimedia.org/wikipedia/commons/c/c3/VirtualBox_RHEL_8_07_04_2021_21_22_14.png)
 
-## Linux Fedora Core <br> ![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
+## Linux Fedora Core
+
+![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
 
 * O Fedora é o sucessor do antigo Red Hat Desktop, descontinuado em 2003
 * Combina os esforços da RedHat, com um bom número de voluntários e usuários fiéis. 
@@ -322,6 +344,12 @@ mas possui influência a nível mundial.
 ## CentOS
 
 ![CENTOS](https://cdn-2.unixguru.me/wp-content/uploads/2018/12/centos.png)
+
+* A distribuição CentOS Linux é uma plataforma estável derivada de fontes do Red Hat Enterprise Linux (RHEL) que utiliza o gerenciador de pacotes YUM.
+* Primeira versão lançada em maio de 2004 e versão mais recente (8.4.2105) em junho de 2021.
+* Chegou a se tornar em 2010 a distribuição mais polular para servidores web, sendo novamente superada pela DEBIAN em 2012.
+* O projeto passou a ser patrocinado pela RedHat, que adquiriu propriedade comercial da marca CentOs. 
+* A RedHat anunciou sua descontinuação do Projeto Centos, em dezembro de 2020, de forma que o CentOS 8 tem descuntinuação programada para dezembro de 2021, enquanto o CentOS 7 tem suporte até 2024.
 
 ![CentosScreen](https://upload.wikimedia.org/wikipedia/commons/b/b8/CentOS_8.3_ENG_03_01_2021_18_22_53.png)
 
