@@ -229,6 +229,8 @@ que se pode precisar
 * Baseadas em Slackware PMS (pkgtools)
     * Slackware
 
+---
+
 ### Linux Debian
 ![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
 * Distribuição Linux mais “pura”
