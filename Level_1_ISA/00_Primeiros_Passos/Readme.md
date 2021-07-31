@@ -275,13 +275,13 @@ início da palavra é uma referência ao Knoppix.
 
 ## SparkyLinux
 
-![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
+![SPARKY](https://upload.wikimedia.org/wikipedia/commons/1/16/SparkyLinux-logo-200px.png)
 
 * Sistema linux leve baseado em DEBIAN direcionado a desktops. Sua primeira versão foi lançada em maio de 2012, enquanto seu último lançamento ocorreu em outubro de 2020.
 * Tem como principais características ser leve, rapido e personalivél.
 * Em geral, o Sparky não é voltado para iniciantes em Linux, mas sim para usuários com algum conhecimento em Linux.
 
-![sparkyScreen](https://upload.wikimedia.org/wikipedia/commons/a/a2/VirtualBox_SparkyLinux_5.14_LXQT_08_04_2021_20_52_50.png)
+![sparkyScreen](https://sparkylinux.org/images/sparky6-ukui.png)
 
 ## Linux Mint
 
