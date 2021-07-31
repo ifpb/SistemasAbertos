@@ -275,7 +275,7 @@ início da palavra é uma referência ao Knoppix.
 
 ## SparkyLinux
 
-![SPARKY](https://upload.wikimedia.org/wikipedia/commons/1/16/SparkyLinux-logo-200px.png)
+![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
 
 * Sistema linux leve baseado em DEBIAN direcionado a desktops. Sua primeira versão foi lançada em maio de 2012, enquanto seu último lançamento ocorreu em outubro de 2020.
 * Tem como principais características ser leve, rapido e personalivél.
