@@ -206,7 +206,7 @@ que se pode precisar
 
 ## Algumas distribuições LINUX
 
-* Baseadas em DEB
+* Baseadas em [DEB](https://en.wikipedia.org/wiki/Deb_(file_format))
     * Debian
     * Ubuntu
     * Knoppix
@@ -215,18 +215,19 @@ que se pode precisar
     * Linux Mint
     * Pop!_OS
 
-* Baseadas em RPM
+* Baseadas em [RPM](https://en.wikipedia.org/wiki/RPM_Package_Manager)
     * RedHat Linux
     * Fedora
     * OpenSUSE
     * CentOS
     * Mandrake
 
-* Baseadas em Pacman
-    * Manjaro
+* Baseadas em [Pacman](https://pt.wikipedia.org/wiki/Pacman_(gerenciador_de_pacotes)
     * ArchLinux
+    * Manjaro
+    
 
-* Baseadas em Slackware PMS (pkgtools)
+* Baseadas em [Slackware'sPMS/pkgtools]()
     * Slackware
 
 ## Linux Debian
@@ -273,15 +274,23 @@ início da palavra é uma referência ao Knoppix.
 * Distribuição Linux bem popular no Brasil
 
 ## SparkyLinux
+
 ![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
+
+![sparkyScreen](https://upload.wikimedia.org/wikipedia/commons/a/a2/VirtualBox_SparkyLinux_5.14_LXQT_08_04_2021_20_52_50.png)
 
 ## Linux Mint
 
 ![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
 
+![mintScreen](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png/1200px-VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png)
+
 ## Pop!_OS
 
 ![POPOS](https://b.thumbs.redditmedia.com/lsvm58KI2GuT8zdkdV2FWfjZ4Jk3MqTMViDcrc2g3Ko.png)
+
+
+![popScreen](https://www.jeremymorgan.com/images/pop-os-linux/pop-os-linux-og.jpg)
 
 ## Linux RedHat
 
@@ -295,6 +304,8 @@ mercado empresarial.
 mas possui influência a nível mundial.
 * Sua equipe não ajuda na distribuição em si somente, mas também no próprio Linux. 
 * Várias distribuições começaram se baseando nesta distribuição, o que a faz uma boa base para todos.
+
+![REDHAT](https://upload.wikimedia.org/wikipedia/commons/c/c3/VirtualBox_RHEL_8_07_04_2021_21_22_14.png)
 
 ## Linux Fedora Core
 
