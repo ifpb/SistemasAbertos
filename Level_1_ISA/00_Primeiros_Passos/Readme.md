@@ -238,12 +238,14 @@ que se pode precisar
     * ◦Preocupação principal é sempre a estabilidade 
     * Distribuição mais usada em servidores
 * Usada como base para o desenvolvimento de um sem número de distribuições, entre elas o Ubuntu e o Kurumin
+![DebianScreen](https://upload.wikimedia.org/wikipedia/commons/f/fa/Debian10_Gnome.png)
 
 ## Linux Ubuntu
 ![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
 * Baseado no Debian, incorpora melhorias e correções, de forma a proporcionar um sistema bastante estável e fácil de usar 
 * Em pouco mais de um ano, o Ubuntu se tornou uma das distribuições Linux mais populares
 * Utiliza o Gnome como interface padrão, mas é possível instalar os pacotes do KDE através do "kubuntu-desktop"
+![UbuntuScreen](https://media.itpro.co.uk//image/upload/v1600168930/itpro/Reviews/PC%20Pro/Linux%20distros%20labs/Ubuntu_Linux_review_1.jpg)
 
 ## Linux KNOPPIX
 ![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
@@ -288,19 +290,25 @@ mas possui influência a nível mundial.
 * Combina os esforços da RedHat, com um bom número de voluntários e usuários fiéis. 
 * Graças a inovações como o SeLinux, é uma distribuição muito usada em servidores 
 * Também possui um público fiel para Desktop, em função da sua facilidade de uso
+![FedoraScreen](https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedora_Linux_34_%28released_in_2021-04%29.png)
 
-## OpenSUSE
-## Linux SuSE
+## SUSE LINUX Enterprise / OpenSuse
 ![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
 * A SuSE é uma empresa alemã que é uma das maiores influências do Linux no mundo 
 * A SuSE baseia-se originalmente no Slackware 
 * Oferece uma ferramenta de configuração do sistema chamada YaST, que facilita e muito mexer nas configurações da distribuição
 * Atualmente o SuSE é utilizado por muitas máquinas na Europa, incluindo instituições educacionais e governamentais
 * Sem dúvida é uma distribuição notável, porém não muito usada no Brasil
+![SuseDesktop](https://upload.wikimedia.org/wikipedia/commons/5/59/SLED_15_Default_Desktop.png)
+
+![openSUSE](https://en.opensuse.org/images/4/44/Button-filled-colour.png)
+
+![openSuseScreen](https://9to5linux.com/wp-content/uploads/2021/03/opensuseleap153beta.jpg)
 
 ## CentOS
 ![CENTOS](https://cdn-2.unixguru.me/wp-content/uploads/2018/12/centos.png)
 
+![FedoraScreen](https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedora_Linux_34_%28released_in_2021-04%29.png)
 
 ## Manjaro
 ![MANJARO](https://alternative.me/media/256/manjaro-linux-icon-kcq66qcllp5d6xqk-c.png)
@@ -318,4 +326,4 @@ mas possui influência a nível mundial.
 * É uma distribuição interessante para PCs com poucos recursos e também para quem procura uma distribuição simples e personalizável
     * possui poucos componentes e tem arquivos de configuração claros
 * Recomendada para usuários mais experientes
-
+![SlackwareScreen](https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedora_Linux_34_%28released_in_2021-04%29.png)
