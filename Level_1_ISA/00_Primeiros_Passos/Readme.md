@@ -230,7 +230,9 @@ que se pode precisar
     * Slackware
 
 ## Linux Debian
+
 ![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
+
 * Distribuição Linux mais “pura”
     * Desenvolvida exclusivamente por voluntários, sem vínculos com nenhuma empresa, mantendo o espírito do software livre 
 * Distribuição Linux mais estável
@@ -242,7 +244,9 @@ que se pode precisar
 ![DebianScreen](https://upload.wikimedia.org/wikipedia/commons/f/fa/Debian10_Gnome.png)
 
 ## Linux Ubuntu
+
 ![UBUNTU](https://cdn.icon-icons.com/icons2/17/PNG/256/ubuntu_linux_2075.png)
+
 * Baseado no Debian, incorpora melhorias e correções, de forma a proporcionar um sistema bastante estável e fácil de usar 
 * Em pouco mais de um ano, o Ubuntu se tornou uma das distribuições Linux mais populares
 * Utiliza o Gnome como interface padrão, mas é possível instalar os pacotes do KDE através do "kubuntu-desktop"
@@ -250,13 +254,16 @@ que se pode precisar
 ![UbuntuScreen](https://media.itpro.co.uk//image/upload/v1600168930/itpro/Reviews/PC%20Pro/Linux%20distros%20labs/Ubuntu_Linux_review_1.jpg)
 
 ## Linux KNOPPIX
+
 ![KNOPPIX](https://www.softexia.com/wp-content/uploads/2015/11/KNOPPIX_logo.png)
+
 * Knoppix é uma distribuição GNU/Linux baseado no Debian e gravado em CD bootável (Live CD).
 * Realiza detecção automática de hardware, suporta vários dispositivos gráficos, de som, SCSI, USB e outros periféricos.
 * Ao dar o boot do CD do Knoppix não é preciso instalar nada em seu disco rígido. Devido à sua descompressão, que acontece a partir do CD, estão disponíveis mais de 2 GB de aplicativos, desde aplicações de escritório a ferramentas de sistema. 
 * O Knopppix foi um dos primeiros live cds de GNU/Linux.
 
 ## Linux Kurumin
+
 ![KURUMIN](http://ninjadolinux.com.br/wp-content/uploads/2016/03/tuxkurumin-209x230.png)
 * O Kurumin Linux é uma distribuição Linux baseada no Knoppix, e que mantém o mesmo sistema de detecção de hardware desta distribuição. 
 * Criado por Carlos E. Morimoto, o Kurumin foi projetado para que fosse bem mais compacto, cabendo em um mini-CD de 80 mm
@@ -269,12 +276,15 @@ início da palavra é uma referência ao Knoppix.
 ![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
 
 ## Linux Mint
+
 ![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
 
 ## Pop!_OS
+
 ![POPOS](https://b.thumbs.redditmedia.com/lsvm58KI2GuT8zdkdV2FWfjZ4Jk3MqTMViDcrc2g3Ko.png)
 
 ## Linux RedHat
+
 ![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
 * Criada pela empresa americana Red Hat, foi uma das pioneiras no 
 tratamento sério do Linux. 
@@ -287,6 +297,7 @@ mas possui influência a nível mundial.
 * Várias distribuições começaram se baseando nesta distribuição, o que a faz uma boa base para todos.
 
 ## Linux Fedora Core
+
 ![FEDORA](https://www.softexia.com/wp-content/uploads/2015/11/Fedora-logo-256x256.png)
 * O Fedora é o sucessor do antigo Red Hat Desktop, descontinuado em 2003
 * Combina os esforços da RedHat, com um bom número de voluntários e usuários fiéis. 
@@ -296,7 +307,9 @@ mas possui influência a nível mundial.
 ![FedoraScreen](https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedora_Linux_34_%28released_in_2021-04%29.png)
 
 ## SUSE LINUX Enterprise / OpenSuse
+
 ![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
+
 * A SuSE é uma empresa alemã que é uma das maiores influências do Linux no mundo 
 * A SuSE baseia-se originalmente no Slackware 
 * Oferece uma ferramenta de configuração do sistema chamada YaST, que facilita e muito mexer nas configurações da distribuição
@@ -310,17 +323,20 @@ mas possui influência a nível mundial.
 ![openSuseScreen](https://9to5linux.com/wp-content/uploads/2021/03/opensuseleap153beta.jpg)
 
 ## CentOS
+
 ![CENTOS](https://cdn-2.unixguru.me/wp-content/uploads/2018/12/centos.png)
 
-![FedoraScreen](https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedora_Linux_34_%28released_in_2021-04%29.png)
+![CentosScreen](https://upload.wikimedia.org/wikipedia/commons/b/b8/CentOS_8.3_ENG_03_01_2021_18_22_53.png)
 
 ## Manjaro
 ![MANJARO](https://alternative.me/media/256/manjaro-linux-icon-kcq66qcllp5d6xqk-c.png)
 
+![ManjaroScreen](https://manjaro.org/img/editions/arm-xfce-full.png)
 
 ## ArchLinux
 ![ARCHLINUX](https://thelinuxexperiment.com/blog/wp-content/uploads/2017/08/arch.png)
 
+![ArchlinuxScreen](https://4.bp.blogspot.com/-O0l7NoGRM7o/Vt5XEKC8W8I/AAAAAAAAMd0/IHd8JFWeawU/s1600/DeepinScreenshot20160308113649.png)
 
 ## Linux Slackware
 ![SLACKWARE](https://vulners.com/static/img/slackware.png)
@@ -331,4 +347,4 @@ mas possui influência a nível mundial.
     * possui poucos componentes e tem arquivos de configuração claros
 * Recomendada para usuários mais experientes
 
-![SlackwareScreen](https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedora_Linux_34_%28released_in_2021-04%29.png)
+![SlackwareScreen](https://upload.wikimedia.org/wikipedia/commons/5/53/Slackware_GNU_Linux_14.1.png)
