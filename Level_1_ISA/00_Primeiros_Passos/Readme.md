@@ -206,6 +206,29 @@ que se pode precisar
 
 ## Algumas distribuições LINUX
 
+* Baseadas em DEB
+    * Debian
+    * Ubuntu
+    * Knoppix
+    * Kurumin
+    * SparkyLinux
+    * Linux Mint
+    * Pop!_OS
+
+* Baseadas em RPM
+    * RedHat Linux
+    * Fedora
+    * OpenSUSE
+    * CentOS
+    * Mandrake
+
+* Baseadas em Pacman
+    * Manjaro
+    * ArchLinux
+
+* Baseadas em Slackware PMS (pkgtools)
+    * Slackware
+
 ### Linux Debian
 ![DEBIAN](https://www.shareicon.net/data/256x256/2015/09/16/101872_debian_512x512.png)
 * Distribuição Linux mais “pura”
@@ -238,22 +261,14 @@ uma alusão a uma distribuição Linux mais leve e simples. A letra K no
 início da palavra é uma referência ao Knoppix.
 * Distribuição Linux bem popular no Brasil
 
-### Linux Slackware
-![SLACKWARE](https://vulners.com/static/img/slackware.png)
-* O Slackware é uma distribuição Linux das mais famosas
-* Criada por Patrick Volkerding, teve sua primeira versão lançada em Abril de 1992
-* Segue filosofia rígida: manter a distribuição o mais parecida possível com o UNIX
-* É uma distribuição interessante para PCs com poucos recursos e também para quem procura uma distribuição simples e personalizável
-    * possui poucos componentes e tem arquivos de configuração claros
-* Recomendada para usuários mais experientes
+### SparkyLinux
+![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
 
-### Linux SuSE
-![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
-* A SuSE é uma empresa alemã que é uma das maiores influências do Linux no mundo 
-* A SuSE baseia-se originalmente no Slackware 
-* Oferece uma ferramenta de configuração do sistema chamada YaST, que facilita e muito mexer nas configurações da distribuição
-* Atualmente o SuSE é utilizado por muitas máquinas na Europa, incluindo instituições educacionais e governamentais
-* Sem dúvida é uma distribuição notável, porém não muito usada no Brasil
+### Linux Mint
+![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
+
+### Pop!_OS
+![POPOS](https://b.thumbs.redditmedia.com/lsvm58KI2GuT8zdkdV2FWfjZ4Jk3MqTMViDcrc2g3Ko.png)
 
 ### Linux RedHat
 ![REDHAT](https://b.thumbs.redditmedia.com/7f-_ntVEoHVAbsCrhY0Q-dlba3bpXir9uFxLe_RLHOE.png)
@@ -274,23 +289,33 @@ mas possui influência a nível mundial.
 * Graças a inovações como o SeLinux, é uma distribuição muito usada em servidores 
 * Também possui um público fiel para Desktop, em função da sua facilidade de uso
 
-### Linux Mandrake
-![MANDRAKE](https://cdn.iconscout.com/icon/free/png-256/mandrake-202403.png)
-* Esta empresa francesa resolveu apostar no Linux como um sistema fácil para todos 
-* Baseada na americana Red Hat, o Mandrake vem com vários programas de configuração fáceis de serem utilizados e bem úteis
-* Durante o crescimento mundial do Linux, o Mandrake adquiriu muitos fãs e uma popularidade incrível, principalmente na América do Norte, através de sua interface fácil e dinamismo
+### OpenSUSE
+### Linux SuSE
+![SUSE](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ngvrlevjiovyp4ycffw5)
+* A SuSE é uma empresa alemã que é uma das maiores influências do Linux no mundo 
+* A SuSE baseia-se originalmente no Slackware 
+* Oferece uma ferramenta de configuração do sistema chamada YaST, que facilita e muito mexer nas configurações da distribuição
+* Atualmente o SuSE é utilizado por muitas máquinas na Europa, incluindo instituições educacionais e governamentais
+* Sem dúvida é uma distribuição notável, porém não muito usada no Brasil
 
-### Conectiva Linux
-![CONECTIVA](https://archive.org/download/tucows_155612_Conectiva_Linux/conectiva.jpg)
-* Criada pela empresa brasileira Conectiva, foi denominada inicialmente de Parolin, e não continha muita coisa além de traduções da distribuição Red Hat. 
-* O seu desenvolvimento cresceu e resolveram partir para um rumo próprio,  fazendo suas próprias alterações e ideologias na distribuição em uma rota diversa da empresa americana Red Hat. Então surgiu o Conectiva Linux.
-* A partir de 1999, com o aumento do uso do Linux no Brasil, o 
-Conectiva Linux, que já estava na sua versão 3.0, ficou muito popular 
-entre os usuários brasileiros, provando ser tão boa quanto as estrangeiras.
+### CentOS
+![CENTOS](https://cdn-2.unixguru.me/wp-content/uploads/2018/12/centos.png)
 
-### Linux Mandriva
-![MANDRIVA](https://lh3.googleusercontent.com/-ZfchwhBCQUA/YG8UvQFJBZI/AAAAAAAAfAA/Txppx1ajf64WAf96sJLtIvcDcysRJ4qugCLcBGAsYHQ/s16000/mandriva.png)
-* O Mandriva Linux é resultado da fusão ocorrida em 24 de fevereiro de 2005 entre a MandrakeSoft, uma das principais distribuições Linux da 
-Europa e a Conectiva
-* A Mandriva possui escritórios nos Estados Unidos, França e Brasil, tem 
-mais de 8 milhões de usuários e uma carteira de 170 grandes clientes corporativos, além de contar com 130 funcionários.
+
+### Manjaro
+![MANJARO](https://alternative.me/media/256/manjaro-linux-icon-kcq66qcllp5d6xqk-c.png)
+
+
+### ArchLinux
+![ARCHLINUX](https://thelinuxexperiment.com/blog/wp-content/uploads/2017/08/arch.png)
+
+
+### Linux Slackware
+![SLACKWARE](https://vulners.com/static/img/slackware.png)
+* O Slackware é uma distribuição Linux das mais famosas
+* Criada por Patrick Volkerding, teve sua primeira versão lançada em Abril de 1992
+* Segue filosofia rígida: manter a distribuição o mais parecida possível com o UNIX
+* É uma distribuição interessante para PCs com poucos recursos e também para quem procura uma distribuição simples e personalizável
+    * possui poucos componentes e tem arquivos de configuração claros
+* Recomendada para usuários mais experientes
+
