@@ -222,7 +222,7 @@ que se pode precisar
     * CentOS
     * Mandrake
 
-* Baseadas em [Pacman](https://pt.wikipedia.org/wiki/Pacman_(gerenciador_de_pacotes)
+* Baseadas em [Pacman](https://pt.wikipedia.org/wiki/Pacman_(gerenciador_de_pacotes))
     * ArchLinux
     * Manjaro
 
@@ -276,7 +276,6 @@ início da palavra é uma referência ao Knoppix.
 ## SparkyLinux
 
 ![SPARKY](https://cdni.comss.net/logo/Sparky_logo_2019_256.png)
-
 * Sistema linux leve baseado em DEBIAN direcionado a desktops. Sua primeira versão foi lançada em maio de 2012, enquanto seu último lançamento ocorreu em outubro de 2020.
 * Tem como principais características ser leve, rapido e personalivél.
 * Em geral, o Sparky não é voltado para iniciantes em Linux, mas sim para usuários com algum conhecimento em Linux.
