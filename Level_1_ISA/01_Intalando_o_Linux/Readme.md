@@ -51,20 +51,82 @@
     ![inicar instalação](imagens/201.png)
 
 1. Selecione a localidade para "Brasil".
+
     ![inicar instalação](imagens/202.png)
 
 1. Configure o layout de teclado para "Português Brasileiro".
 
     ![inicar instalação](imagens/203.png)
 
-1. Preencha o nome do computador (host). Tecle "TAB" para alternar entre os campos até <continuar>. Na tela seguinte, deixe o nome de domínio em branco.
+1. Preencha o nome do computador (host). Tecle "TAB" para alternar entre os campos até "continuar". Na tela seguinte, deixe o nome de domínio em branco.
 
     ![inicar instalação](imagens/204.png)
 
     ![inicar instalação](imagens/205.png)
 
-1. 
+1. Crie uma senha para o usuário ROOT (lembre desta senha!) e na tela seguinte, confirme a senha criada. Para alternar entre os campos utilize a tecla "TAB". Caso queira visualizar a senha criada, aperte "espaço" quando estiver no campo "mostrar senha".
 
+    ![inicar instalação](imagens/206.png)
+
+    ![inicar instalação](imagens/207.png)
+
+1. Preencha o nome completo do primeiro usuário a ser criado. Nas telas seguintes, crie o nome de usuário para login, crie uma senha para o usuário e confirme a senha criada.
+
+    ![inicar instalação](imagens/208.png)
+
+    ![inicar instalação](imagens/209.png)
+
+    ![inicar instalação](imagens/210.png)
+
+    ![inicar instalação](imagens/211.png)
+
+1. Aguarde o carregamento das configurações iniciais do sistema para data e hora do sistema. Na tela "configurar relógio", selecione sua região (Paraíba).
+
+    ![inicar instalação](imagens/212.png)
+
+    ![inicar instalação](imagens/213.png)
+
+1. Na tela "PARTICIONAR DISCOS", selecione a opção "MANUAL". A seguir, Selecione o disco que será particionado. E confirme a criação da tabela de partiçoes vazia no dispositivo. 
+
+    ![inicar instalação](imagens/214.png)
+
+    ![inicar instalação](imagens/215.png)
+
+    ![inicar instalação](imagens/216.png)
+
+1. Selecione a partição com espaço livre inicial. Escolha "criar uma nova partição" na tela seguinte. Peencha o campo de tamanho da partição com 2 GB. Escolha o tipo de partiçõ "PRIMÁRIA" e localização "INÍCIO". Selecione o campo "usar como" e altere para "área de troca - swap". Por fim, selecione "finalizar a configuração da partição" para criar a primeira partição do disco, que corresponderá a área de troca.
+
+    ![inicar instalação](imagens/217.png)
+
+    ![inicar instalação](imagens/218.png)
+
+    ![inicar instalação](imagens/219.png)
+
+    ![inicar instalação](imagens/220.png)
+
+    ![inicar instalação](imagens/221.png)
+
+    ![inicar instalação](imagens/222.png)
+
+    ![inicar instalação](imagens/223.png)
+
+    ![inicar instalação](imagens/224.png)
+
+1. Repita o mesmo procedimento para criar uma partição para o sistema ("/"raiz) e arquivos de usuários (/home), sempre selecionando o tipo de partição "PRIMÁRIA" e localização "INÍCIO". A partição para raiz (/) deve ter 10 GB, usar como "sistema de arquivos com "journaling" ext4 e ponto de montagem: "/". Já a partição para arquivos de usuários, deve ter o corresponte ao restante do espaço livre, usar como "sistema de arquivos com "journaling" ext4 e ponto de montagem: "/home". Finalize o particionamente e escreva as mudanças no disco.
+
+    ![inicar instalação](imagens/225.png)
+
+    ![inicar instalação](imagens/226.png)
+
+    ![inicar instalação](imagens/227.png)
+
+    ![inicar instalação](imagens/228.png)
+
+    ![inicar instalação](imagens/229.png)
+
+    ![inicar instalação](imagens/230.png)
+    
+    ![inicar instalação](imagens/231.png)
 
 ## INSTALANDO O UBUNTU 20.04
 
