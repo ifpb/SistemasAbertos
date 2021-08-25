@@ -164,6 +164,10 @@
 
     ![instalação](imagens/19.png)
 
+1. Aguarde a reinicialização da máquina e a exibição da tela de login do Debian.
+
+    ![inicar instalação](imagens/244.png)
+
 ## INSTALANDO O UBUNTU 20.04
 
 1. Clique em "iniciar" em sua maquina virtual criada anteriormente e aguarde. Na tela de "boas vindas", selecione o idioma de instalação e clique em "instalar Ubuntu".
