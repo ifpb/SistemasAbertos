@@ -2,8 +2,8 @@
 
 ## SUMÁRIO
 * Criando uma máquina virtual
-* Instalando o Debian 11
-* Instalando o Ubuntu 20.04
+* Instalando o Debian 11 (sem interface gráfica)
+* Instalando o Ubuntu 20.04 (com interface gráfica)
 
 ## CRIANDO UMA MÁQUINA VIRTUAL
 * Baixe e instale um software de virtualização, observando o sistema operacional da sua máquina e a arquitetura do processador:
@@ -39,6 +39,31 @@
 
 
 ## INSTALANDO O DEBIAN 11
+
+1. Clique em "iniciar" em sua maquina virtual criada anteriormente e aguarde. Na tela inicial, selecione "INSTALL".
+
+    ![inicar instalação](imagens/200.png)
+
+    * Na instalação sem interface gráfica, a navegação é feita a partir das setas direcionais do teclado, alternando-se entre os campos com a tecla "TAB", e fazendo a seleção com a tecla "ENTER" ou marcações (em caixas de seleção), com a tecla "ESPAÇO".
+
+1. Selecione o idioma padrão para o sistema "Portuguese (Brazil)".
+
+    ![inicar instalação](imagens/201.png)
+
+1. Selecione a localidade para "Brasil".
+    ![inicar instalação](imagens/202.png)
+
+1. Configure o layout de teclado para "Português Brasileiro".
+
+    ![inicar instalação](imagens/203.png)
+
+1. Preencha o nome do computador (host). Tecle "TAB" para alternar entre os campos até <continuar>. Na tela seguinte, deixe o nome de domínio em branco.
+
+    ![inicar instalação](imagens/204.png)
+
+    ![inicar instalação](imagens/205.png)
+
+1. 
 
 
 ## INSTALANDO O UBUNTU 20.04
