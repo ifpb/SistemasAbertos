@@ -333,6 +333,11 @@ mas possui influência a nível mundial.
 
 ![openSUSE](https://en.opensuse.org/images/4/44/Button-filled-colour.png)
 
+* Projeto software-livre e código aberto patrocinado pela SUSE, empresa alemã desenvolvedora da distribuição SUSE LINUX Enterprise.
+* Sua primeira versão foi lançada em 2005.
+* Adota interfaces gráficas Cinnamon, MATE, KDE, GNOME, XFCE, LXQT.
+* Utiliza sistema de rolling release para a versão openSUSE Tumbleweed, fornecendo as versões de software mais recentes, mas apenas os pacotes que passam na fase de testes. Apresenta também uma versão "point release", que anualmente é atualizada, apresentando versões novas e altamente aprimoradas de todos os aplicativos úteis para servidores e desktops.
+
 ![openSuseScreen](https://9to5linux.com/wp-content/uploads/2021/03/opensuseleap153beta.jpg)
 
 ## CentOS
@@ -352,7 +357,7 @@ mas possui influência a nível mundial.
 ![ARCHLINUX](https://thelinuxexperiment.com/blog/wp-content/uploads/2017/08/arch.png)
 
 * Sua primeira versão foi lançada em 2002, inspirado na distribuição CRUX, sob a premissa de minimalismo, simplicidade e eficiência.
-* Possui gerenciados de pacotes próprio "PACMAN".
+* Possui gerenciador de pacotes próprio, chamado "PACMAN".
 * A distribuição adota o sistema de rolling release, ou seja, não possui versões, sendo os pacotes constantemente atualizados; ao contrário do que ocorre em outras distribuições, que adotam o sistema "Point release", como Ubuntu e Fedora.
 
 ![ArchlinuxScreen](https://4.bp.blogspot.com/-O0l7NoGRM7o/Vt5XEKC8W8I/AAAAAAAAMd0/IHd8JFWeawU/s1600/DeepinScreenshot20160308113649.png)
@@ -361,7 +366,10 @@ mas possui influência a nível mundial.
 
 ![MANJARO](https://alternative.me/media/256/manjaro-linux-icon-kcq66qcllp5d6xqk-c.png)
 
-* Criado em 2011 com base no ArchLinux
+* Criado em 2011 com base no ArchLinux com intuito de ser uma 'distro' amigável ao usuário.
+* Adota as interfaces gráficas XFCE, KDE PLASMA e GNOME.
+* Também utiliza o gerenciador de pacotes "PACMAN".
+
 
 ![ManjaroScreen](https://manjaro.org/img/editions/arm-xfce-full.png)
 
