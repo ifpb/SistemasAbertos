@@ -213,7 +213,6 @@ que se pode precisar
     * Kurumin
     * SparkyLinux
     * Linux Mint
-    * Pop!_OS
 
 * Baseadas em [RPM](https://en.wikipedia.org/wiki/RPM_Package_Manager)
     * RedHat Linux
@@ -286,16 +285,12 @@ início da palavra é uma referência ao Knoppix.
 
 ![MINT](https://winaero.com/blog/wp-content/uploads/2019/12/Linux-Mint-Linuxmint-Logo-Icon-New.png)
 
+* Criada em 2006 com base nas discribuições debian e ubuntu.
+* Desenvolvida por Clément Lefèbvre, Jamie Boo Birse, Kendall Weaver e pela comunidade.
+* Adota interfaces graficas Cinnamon, Mate, KDE e XFCE.
+* Fornece suporte multimídia desde a instalação, incluindo software proprietário, como codecs de multimídia.
+
 ![mintScreen](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png/1200px-VirtualBox_Linux_Mint_Desktop_ENG_14_02_2021_13_44_42.png)
-
-## Pop!_OS
-
-![POPOS](https://b.thumbs.redditmedia.com/lsvm58KI2GuT8zdkdV2FWfjZ4Jk3MqTMViDcrc2g3Ko.png) 
-
-
-
-
-![popScreen](https://www.jeremymorgan.com/images/pop-os-linux/pop-os-linux-og.jpg)
 
 ## Linux RedHat 
 
@@ -352,18 +347,28 @@ mas possui influência a nível mundial.
 
 ![CentosScreen](https://upload.wikimedia.org/wikipedia/commons/b/b8/CentOS_8.3_ENG_03_01_2021_18_22_53.png)
 
-## Manjaro
-![MANJARO](https://alternative.me/media/256/manjaro-linux-icon-kcq66qcllp5d6xqk-c.png)
-
-![ManjaroScreen](https://manjaro.org/img/editions/arm-xfce-full.png)
-
 ## ArchLinux
+
 ![ARCHLINUX](https://thelinuxexperiment.com/blog/wp-content/uploads/2017/08/arch.png)
+
+* Sua primeira versão foi lançada em 2002, inspirado na distribuição CRUX, sob a premissa de minimalismo, simplicidade e eficiência.
+* Possui gerenciados de pacotes próprio "PACMAN".
+* A distribuição adota o sistema de rolling release, ou seja, não possui versões, sendo os pacotes constantemente atualizados; ao contrário do que ocorre em outras distribuições, que adotam o sistema "Point release", como Ubuntu e Fedora.
 
 ![ArchlinuxScreen](https://4.bp.blogspot.com/-O0l7NoGRM7o/Vt5XEKC8W8I/AAAAAAAAMd0/IHd8JFWeawU/s1600/DeepinScreenshot20160308113649.png)
 
+## Manjaro
+
+![MANJARO](https://alternative.me/media/256/manjaro-linux-icon-kcq66qcllp5d6xqk-c.png)
+
+* Criado em 2011 com base no ArchLinux
+
+![ManjaroScreen](https://manjaro.org/img/editions/arm-xfce-full.png)
+
 ## Linux Slackware
+
 ![SLACKWARE](https://vulners.com/static/img/slackware.png)
+
 * O Slackware é uma distribuição Linux das mais famosas
 * Criada por Patrick Volkerding, teve sua primeira versão lançada em Abril de 1992
 * Segue filosofia rígida: manter a distribuição o mais parecida possível com o UNIX
