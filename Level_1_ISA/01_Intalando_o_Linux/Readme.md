@@ -67,7 +67,7 @@
 
     ![inicar instalação](imagens/15.png)
 
-1. Aguarde o assistente de instalação terminar. O processo pode demorar alguns minutos. Ao final da instalação, clique em "reiniciar agora". Caso receba uma mensagem para retirar o disco de instalação, clique em "máquina" > "configurações" e certifique-se que o disco óptico esteja vazio. Clique em "OK" e aguarde a instalação. Caso a máquina virtual seja encerrada, reabra o virtualbox, assegurando-se que o disco óptico esteja vazio, e inicie a máquina.
+1. Aguarde o assistente de instalação terminar. O processo pode demorar alguns minutos. Ao final da instalação, clique em "reiniciar agora". Caso receba uma mensagem para retirar o disco de instalação, clique em "máquina" > "configurações" e certifique-se que o disco óptico esteja vazio. Clique em "OK" e aguarde a reinicialização da máquina. Caso a máquina virtual não reinicie sozinha, reabra o virtualbox, assegurando-se que o disco óptico esteja vazio, e inicie a máquina.
 
     ![inicar instalação](imagens/16.png)
 
