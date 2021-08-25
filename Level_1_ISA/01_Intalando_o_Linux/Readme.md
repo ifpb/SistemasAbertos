@@ -23,9 +23,9 @@
 
 3. Na janela "criar disco rígido virtual", selecione "VDI (virtualbox disk image)" para o tipo de arquivo de disco rígido. Clique em próximo. A seguir escolha a opção "dinamicamente alocado" para o armazenamento em disco rígido físico. Por fim, selecione o tamanho do disco a ser criado e clique em "criar".
 
-(04.png)
-(05.png)
-(06.png)
+![alt text](04.png)
+![alt text](05.png)
+![alt text](imagens/06.png)
 
 
 
