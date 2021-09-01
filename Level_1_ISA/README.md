@@ -2,7 +2,7 @@
 
 Repositório com material da disciplinas de Introdução a Sistemas Abertos do IFPB (ISA)
 
-## ConteúdoS
+## CONTEÚDOS
 
 * [00 Primeiros Paços](https://github.com/ifpb/SistemasAbertos/tree/main/Level_1_ISA/00_Primeiros_Passos)
 * [01 Instalando o Linux](https://github.com/ifpb/SistemasAbertos/tree/main/Level_1_ISA/01_Intalando_o_Linux)
