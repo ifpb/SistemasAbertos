@@ -1,7 +1,6 @@
 # INTRODUÇÃO AO LINUX
-Baseado no Material do Prof. Leônidas Lima Júnior
-leonidas.lima@gmail.com
-(2011)
+Baseado no Material do Prof. Leônidas Lima Júnior (leonidas.lima@gmail.com) (2011)
+
 Atualizado por Vinicius Centurion em 2021
 
 ## SUMÁRIO
