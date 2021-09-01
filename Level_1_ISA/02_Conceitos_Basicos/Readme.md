@@ -106,10 +106,8 @@ Diretório | Descrição
 * Comandossão ordens enviadas ao sistema operacional para executar tarefas
 * Comandos podem receber opções e parâmetros
     * Opções são usadas para controlar como o comando será executado
-        
-        '- Opção identificada por uma letra
-        
-        '-- Opção identificada por um nome
+        * -Opção identificada por uma letra
+        * --Opção identificada por um nome
     * Parâmetros são dados passados ao comando
 
 ## COMANDO: ls
@@ -120,10 +118,10 @@ ls [opções] [caminho1/arquivo1] ...
     diretóriox - diretórios que deseja listar
     arquivox - arquivos que deseja listar
 * Algumas opções:
-    -a, --all = Lista todos os arquivos (inclusive os ocultos)
-    -d, --directory = Lista o diretório ao invés do seu conteúdo
-    -l = Formato longo para listagem de arquivos
-    -s, --size = Mostra o tamanho de cada arquivo
+    * -a, --all = Lista todos os arquivos (inclusive os ocultos)
+    * -d, --directory = Lista o diretório ao invés do seu conteúdo
+    * -l = Formato longo para listagem de arquivos
+    * -s, --size = Mostra o tamanho de cada arquivo
 
 ## COMANDO: cd
 
@@ -131,18 +129,18 @@ ls [opções] [caminho1/arquivo1] ...
 * Sintaxe: cd [diretório]
     diretório - diretório que deseja entrar.
 * Exemplos:
-    cd sem parâmetros ou cd ~, retorna ao diretório home
-    cd / troca para o diretório raiz
-    cd - retornará ao diretório anteriormente acessado
-    cd .. sobe um nível na árvore de diretórios
+    * cd sem parâmetros ou cd ~, retorna ao diretório home
+    * cd / troca para o diretório raiz
+    * cd - retornará ao diretório anteriormente acessado
+    * cd .. sobe um nível na árvore de diretórios
 
 ## COMANDO: pwd
 
 * Mostra o diretório corrente ou atual
 * Sintaxe: pwd
 * Exemplo:
-    '# pwd
-    /root
+    * # pwd
+    * /root
 
 
 ## COMANDO: mkdir
