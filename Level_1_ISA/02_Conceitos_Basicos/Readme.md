@@ -106,7 +106,9 @@ Diretório | Descrição
 * Comandossão ordens enviadas ao sistema operacional para executar tarefas
 * Comandos podem receber opções e parâmetros
     * Opções são usadas para controlar como o comando será executado
+        
         '- Opção identificada por uma letra
+        
         '-- Opção identificada por um nome
     * Parâmetros são dados passados ao comando
 
