@@ -100,3 +100,121 @@ Diretório | Descrição
 /srv/ | Dados específicos que são servidos pelo sistema
 /usr/ | Hierarquia secundária para dados compartilhados
 /var/ | Arquivos "variáveis", como logs, páginasWeb, etc.
+
+## COMANDO BÁSICOS
+
+* Comandossão ordens enviadas ao sistema operacional para executar tarefas
+* Comandos podem receber opções e parâmetros
+    * Opções são usadas para controlar como o comando será executado
+        - Opção identificada por uma letra
+        -- Opção identificada por um nome
+    * Parâmetros são dados passados ao comando
+
+## COMANDO: ls
+
+* Lista os arquivos de um diretório
+* Sintaxe:
+ls [opções] [caminho1/arquivo1] ...
+    diretóriox - diretórios que deseja listar
+    arquivox - arquivos que deseja listar
+* Algumas opções:
+    -a, --all = Lista todos os arquivos (inclusive os ocultos)
+    -d, --directory = Lista o diretório ao invés do seu conteúdo
+    -l = Formato longo para listagem de arquivos
+    -s, --size = Mostra o tamanho de cada arquivo
+
+## COMANDO: cd
+
+* Troca de diretório. É preciso ter a permissão de execução para entrar no diretório
+* Sintaxe: cd [diretório]
+    diretório - diretório que deseja entrar.
+* Exemplos:
+    cd sem parâmetros ou cd ~, retorna ao diretório home
+    cd / troca para o diretório raiz
+    cd - retornará ao diretório anteriormente acessado
+    cd .. sobe um nível na árvore de diretórios
+
+## COMANDO: pwd
+
+* Mostra o diretório corrente ou atual
+* Sintaxe: pwd
+* Exemplo:
+    '# pwd
+    /root
+
+
+## COMANDO: mkdir
+
+* Cria novos diretórios
+* Sintaxe: mkdir [caminho1/]diretório1 ...
+    caminhox = Caminho onde o diretório será criado
+    diretóriox = Nome do diretório que será criado
+* Exemplo:
+    '# mkdir /root/teste
+    Cria-se o diretório teste no diretório /root
+
+## COMANDO: rmdir
+
+* Remove diretórios. Estes devem estar vazios
+* Sintaxe: rmdir [caminho1/]diretório1 ...
+    caminhox = Caminho onde o diretório será removido
+    diretóriox = Nome do diretório a ser eliminado
+* Exemplo:
+    '# rmdir /root/teste
+    Elimina-se o diretório teste no diretório /root
+
+## COMANDO: cat
+
+* Mostra o conteúdo de um arquivo
+* Sintaxe: cat [opções] [diretório1/arquivo1]...
+    diretório1/arquivo1 = Arquivo que deseja visualizar o conteúdo
+* Opções
+    -n, --number = Mostra o número das linhas enquanto o conteúdo do arquivo é mostrado
+    -s, --squeeze-blank = Não mostra mais que uma linha em branco entre um parágrafo e outro
+
+## COMANDO: tac
+
+* Mostra o conteúdo de um arquivo em ordem inversa
+* Sintaxe: tac [opções] [diretório1/arquivo1]...
+    diretório1/arquivo1 = Arquivo que deseja visualizar o conteúdo
+* Opções
+    -b, --before = Coloca o separador antes ao invés de após
+    -s, --separator=STRING – Usa STRING como separador de linhas ao invés de newline
+
+## COMANDO: rm
+
+* Apaga arquivos, diretórios e sub-diretórios
+* Sintaxe: rm [opções] [diretório1/arquivo1]...
+    diretório1/arquivo1 = Arquivo que deseja excluir
+* Opções
+    -i, --interactive = Confirma antes de remover. É opção padrão no caso do usuário root
+    -v, --verbose = Mostra arquivos na medida que são removidos
+    -r, --recursive = Usado para remover arquivos em sub-diretórios
+    -f, --force = Não confirma antes de excluir
+
+## COMANDO: cp
+
+* Copia arquivos e/ou diretórios
+* Sintaxe: cp [opções] [origem] [destino]
+    origem = arquivos ou diretórios a serem copiados
+    destino = local para onde os arquivos serão copiados
+* Opções
+    -i, --interactive = Confirma ao substituir um arquivo existente
+    -f, --force = Não pergunta, substitui os arquivos caso já existam
+    -R/ -r, --recursive = Copia arquivos e sub-diretórios
+    -v, --verbose = Mostra arquivos enquanto estão sendo copiados
+
+## COMANDO: mv
+
+* Move e/ou renomeia arquivos e diretório
+* Sintaxe: mv [opções] [origem] [destino]
+    * origem = arquivos ou diretórios a serem movidos/renomeados
+    * destino = local para onde os arquivos serão movidos ou novo nome
+* Opções
+    * -i, --interactive = Confirma ao substituir um arquivo existente
+    * -f, --force = Não pergunta, substitui os arquivos caso já existam
+    * -v, --verbose = Mostra arquivos enquanto estão sendo copiados
+
+## REFERÊNCIAS
+
+* MAZIOLI, Gleydson. Guia Foca Linux Intermediário – versão 5.60. Publicação própria, 2007
