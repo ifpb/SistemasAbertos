@@ -139,7 +139,7 @@ ls [opções] [caminho1/arquivo1] ...
 * Mostra o diretório corrente ou atual
 * Sintaxe: pwd
 * Exemplo:
-    * # pwd
+    * #pwd
     * /root
 
 
@@ -150,7 +150,7 @@ ls [opções] [caminho1/arquivo1] ...
     caminhox = Caminho onde o diretório será criado
     diretóriox = Nome do diretório que será criado
 * Exemplo:
-    '# mkdir /root/teste
+    #mkdir /root/teste
     Cria-se o diretório teste no diretório /root
 
 ## COMANDO: rmdir
@@ -160,7 +160,7 @@ ls [opções] [caminho1/arquivo1] ...
     caminhox = Caminho onde o diretório será removido
     diretóriox = Nome do diretório a ser eliminado
 * Exemplo:
-    '# rmdir /root/teste
+    #rmdir /root/teste
     Elimina-se o diretório teste no diretório /root
 
 ## COMANDO: cat
