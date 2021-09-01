@@ -1,5 +1,8 @@
 # INSTALANDO O LINUX
 
+Baseado no material do Prof. Thiago Gouveia e Matheus Barbosa
+Elaborado por Vinicius Centurion em 2021
+
 ## SUMÁRIO
 * Criando uma máquina virtual
 * Instalando o Debian 11 (sem interface gráfica)
