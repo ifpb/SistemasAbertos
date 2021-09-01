@@ -1,6 +1,7 @@
 # INSTALANDO O LINUX
 
-Baseado no material do Prof. Thiago Gouveia e Matheus Barbosa
+Baseado no material do Prof. Thiago Gouveia (/tgouveia) e Matheus Barbosa (https://www.youtube.com/watch?v=a4c0E9aTw74)
+
 Elaborado por Vinicius Centurion em 2021
 
 ## SUMÁRIO
