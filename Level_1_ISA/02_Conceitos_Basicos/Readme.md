@@ -219,6 +219,42 @@ ls [opções] [caminho1/arquivo1] ...
     * -f, --force = Não pergunta, substitui os arquivos caso já existam
     * -v, --verbose = Mostra arquivos enquanto estão sendo copiados
 
+
+## COMANDO: touch
+
+* O comando touch permite que você crie um novo arquivo em branco por meio da linha de comando do Linux. 
+* Como exemplo, digite touch /home/Documents/Web.html para criar um arquivo HTML intitulado Web no diretório Documentos.
+
+## COMANDO: nano
+
+* Executa o editor de texto Nano.
+* Um arquivo é aberto ou iniciado com o comando: nano <nome_arquivo>
+* Os comandos do editor são acessados a partir dos atalhos control+<atalho> mostrados na parte inferior da tela do editor.
+
+## COMANDO: man
+
+* O comando man no Linux é usado para exibir o manual do usuário de qualquer comando que possamos executar no terminal.
+* Sintaxe:
+    * man [OPÇÃO DO MAN] [NOME DO COMANDO]
+    * exemplo: man ls
+* Algumas opções do comando:
+    * -a : mostra todas as páginas para o nome definido seguindo a ordem das seções definida em /etc/manpath.config.
+    * -f ou –whatis : apresenta apenas uma pequena descrição do comando. Esta opção fornece o mesmo resultado do comando whatis.
+    * -k palavra ou –apropos palavra : procura nos índices do manual a palavra especificada. Esta opção fornece o mesmo resultado do comando apropos.
+
+## COMANDO: tree
+
+* Em sistemas UNIX / LINUX, bem como em MS-DOS e Microsoft Windows, tree é um programa recursivo de listagem de diretórios que produz uma listagem de arquivos com recuo profundo. Sem argumentos, a árvore lista os arquivos no diretório atual. Quando os argumentos do diretório são fornecidos, a árvore lista todos os arquivos ou diretórios encontrados nos diretórios fornecidos, cada um por vez.
+* A instalação do programa pode ser necessária através do comando: sudo apt-get install tree
+* Algumas opções:
+    -a : lista todos os arquivos.
+    -d : lista apenas diretórios
+    -f : Imprime o prefixo do caminho completo para cada arquivo.
+    -i : A árvore não imprimirá as linhas de recuo. Útil quando usado em conjunto com a opção -f.
+    -l : Segue links simbólicos para diretórios como se fossem diretórios. Links que resultariam em um loop recursivo são evitados.
+
 ## REFERÊNCIAS
 
 * MAZIOLI, Gleydson. Guia Foca Linux Intermediário – versão 5.60. Publicação própria, 2007
+* Manual do próprio Linux: man
+* [GuiaFoca](https://www.guiafoca.org/)
