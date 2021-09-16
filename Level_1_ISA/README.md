@@ -1,4 +1,4 @@
-![ISA](ISA IFPB.png)
+![ISA](ISA_IFPB.png)
 
 # SISTEMAS ABERTOS
 
