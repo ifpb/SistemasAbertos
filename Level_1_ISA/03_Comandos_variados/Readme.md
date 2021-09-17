@@ -182,8 +182,10 @@ visualizado
         -r – Reinicia o sistema
         -c – Cancela a execução do shutdown
     * Exemplo:
-        >> terminal# shutdown –h +1
-        >> “Máquina será desligada em 1 min."
+    
+        > terminal# shutdown –h +1
+
+        > “Máquina será desligada em 1 min."
 
 
 ## COMANDOS DE LOCALIZAÇÃO
