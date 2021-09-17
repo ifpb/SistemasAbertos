@@ -89,76 +89,60 @@ Atualizado por Vinicius Centurion em 2021
 
 ## COMANDOS DE MANIPULAÇÃO DE ARQUIVOS
 
- grep - Procura por um texto dentro de
-arquivo(s) ou na entrada padrão
-# grep [opções] [expressão] [arquivo]
- Opções
--i, --ignore-case – Ignora diferença entre
-maiúsculas/minúsculas
--n, --line-number – Mostra número das linhas encontradas
--l – Lista apenas os nomes de arquivos, mas não as linhas
--c – Lista apenas a quantidade de linhas onde aparece o
-texto
--v – Lista linhas que não contêm o texto
+1. grep
+    * Procura por um texto dentro de arquivo(s) ou na entrada padrão
+    * sintaxe: # grep [opções] [expressão] [arquivo]
+    * Opções:
+        * -i, --ignore-case – Ignora diferença entre maiúsculas/minúsculas
+        * -n, --line-number – Mostra número das linhas encontradas
+        * -l – Lista apenas os nomes de arquivos, mas não as linhas
+        * -c – Lista apenas a quantidade de linhas onde aparece o texto
+        * -v – Lista linhas que não contêm o texto
 
- head - Mostra linhas iniciais de um arquivo
-texto
-◦ # head [opções] [arquivos]
- Opções
-◦ -c [numero] – Mostra o [numero] de bytes do
-inicio do arquivo
-◦ -n [numero] – Mostra o [numero] de linhas do
-inicio do arquivo
-◦ Caso não seja especificado, mostra as 10
-primeiras linhas
- Exemplos
-◦ # head /etc/passwd
-◦ # head -n 20 /var/log/syslog
+1. head
+    * Mostra linhas iniciais de um arquivo texto
+    * sintaxe: # head [opções] [arquivos]
+    * Opções:
+        -c [numero] – Mostra o [numero] de bytes do inicio do arquivo
+        -n [numero] – Mostra o [numero] de linhas do inicio do arquivo
+    
+    * Caso não seja especificado, mostra as 10 primeiras linhas
+    * Exemplos
+        * #head /etc/passwd
+        * #head -n 20 /var/log/syslog
 
- tail - Mostra linhas finais de um arquivo
-texto
-◦ # tail [opções] [arquivos]
- Opções
-◦ -c [numero] – Mostra o [numero] de bytes do
-final do arquivo
-◦ -n [numero] – Mostra o [numero] de linhas do
-final do arquivo
-◦ Caso não seja especificado, mostra as 10 últimas
-linhas
- Exemplos
-◦ # tail /etc/passwd
-◦ # tail -n 20 /var/log/syslog
+1. tail
+    * Mostra linhas finais de um arquivo texto
+    * sintaxe: # tail [opções] [arquivos]
+    * Opções
+        * -c [numero] – Mostra o [numero] de bytes do final do arquivo
+        * -n [numero] – Mostra o [numero] de linhas do final do arquivo
+        * Caso não seja especificado, mostra as 10 últimas linhas
+    * Exemplos
+        * #tail /etc/passwd
+        * #tail -n 20 /var/log/syslog
 
- more - Faz a paginação de arquivos ou da
-entrada padrão
+ more - Faz a paginação de arquivos ou da entrada padrão
 # more [opções] [arquivos]
- less - Realiza a paginação de arquivos ou
-da entrada padrão, de maneira semelhante
-ao more, mas permite o uso do
-PgUp/PgDn
+ less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
 # less [opções] [arquivos]
 
- wc - Conta o número de palavras, bytes e
-linhas em um arquivo ou entrada padrão.
-Se as opções forem omitidas, o wc
-mostra a quantidade de linhas, palavras, e
-bytes.
-# wc [opções] [arquivos]
- Opções
--c, --bytes – Mostra os bytes do arquivo.
--w, --words – Mostra a quantidade de palavras do arquivo
--l, --lines – Mostra a quantidade de linhas do arquivo
+1. wc
+    * Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
+    * sintaxe: # wc [opções] [arquivos]
+    * Opções:
+        * -c, --bytes – Mostra os bytes do arquivo.
+        * -w, --words – Mostra a quantidade de palavras do arquivo
+        * -l, --lines – Mostra a quantidade de linhas do arquivo
 
- sort - Organiza as linhas de um arquivo
-texto ou da entrada padrão
-# sort [opções] [arquivos]
- Opções
--f – Ignora diferenças entre maiúsculas e minúsculas
--m – Junta conjunto de arquivos antes de ordenar
--r – Inverte o resultado da comparação
--n – Caso estja organizando um campo que contém
-números, os números serão organizados na ordem
-aritmética
+1. sort
+    * Organiza as linhas de um arquivo texto ou da entrada padrão
+    * sintaxe: # sort [opções] [arquivos]
+    * Opções:
+        -f – Ignora diferenças entre maiúsculas e minúsculas
+        -m – Junta conjunto de arquivos antes de ordenar
+        -r – Inverte o resultado da comparação
+        -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
 
  ln - Cria links (pseudônimos) para
 arquivos e diretórios no sistema
