@@ -64,7 +64,7 @@ Atualizado por Vinicius Centurion em 2021
 * Mostra o tempo de execução do sistema desde que o computador foi ligado
 * Exemplo:
     
-    ```linux
+    ```
     # uptime
     > 17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
     ```
@@ -133,7 +133,7 @@ Atualizado por Vinicius Centurion em 2021
     -n [numero] – Mostra o [numero] de linhas do inicio do arquivo
 
 * Caso não seja especificado, mostra as 10 primeiras linhas
-* Exemplos
+* Exemplos:
 
     ```
     # head /etc/passwd
@@ -152,7 +152,8 @@ Atualizado por Vinicius Centurion em 2021
     * -c [numero] – Mostra o [numero] de bytes do final do arquivo
     * -n [numero] – Mostra o [numero] de linhas do final do arquivo
     * Caso não seja especificado, mostra as 10 últimas linhas
-* Exemplos
+* Exemplos:
+
     ```
     #tail /etc/passwd
     #tail -n 20 /var/log/syslog
@@ -202,6 +203,7 @@ Atualizado por Vinicius Centurion em 2021
 ### ln 
 * Cria links (pseudônimos) para arquivos e diretórios no sistema
 * sintaxe:
+
     ```
     # ln [opções][origem] [link]
     ```
