@@ -257,59 +257,59 @@ Atualizado por Vinicius Centurion em 2021
 ## COMANDOS DE LOCALIZAÇÃO
 
 #### comando which
-    * Imprime a localização real de um comando. Por exemplo:
+* Imprime a localização real de um comando. Por exemplo:
+    ```
+    $ which wget
+    > /usr/bin/wget
+    ```
 
-        ```
-        $ which wget
-        > /usr/bin/wget
-        ```
+* É comum que esta ainda não seja a localização real do comando, algumas vezes é apenas o link que está no PATH. Por Exemplo:
+    ```
+    $ which python
+    > /usr/bin/python
+    ```
 
-    * É comum que esta ainda não seja a localização real do comando, algumas vezes é apenas o link que está no PATH. Por Exemplo:
-        ```
-        $ which python
-        > /usr/bin/python
-        ```
-
-        ```
-        $ ls -l /usr/bin/python
-        > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
-        ```
+    ```
+    $ ls -l /usr/bin/python
+    > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
+    ```
 
 ### comando grep
-    * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
-        ```
-        $ ls /bin | grep ^pas
-        > passwd
-        > paste
-        > pasteurize
-        > pasuspender
-        ```
+* Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
+    
+    ```
+    $ ls /bin | grep ^pas
+    > passwd
+    > paste
+    > pasteurize
+    > pasuspender
+    ```
 
-        ```
-        $ cat /etc/passwd | grep root
-        > root: x:0:0:root:/root:/bin/bash
-        ```
+    ```
+    $ cat /etc/passwd | grep root
+    > root: x:0:0:root:/root:/bin/bash
+    ```
 
 ### comando find
-    * Poderoso comando para buscar arquivos em toda a máquina.
-    * Uso: find [diretório onde iniciar a busca] [padrão de busca]
-        ```
-        $ find . -name '*bkp*'
-        $ find . -iname '*bkp*'
-        $ sudo find / -iname '*.jpg'
-        $ find /tmp -size +5M
-        $ sudo find / -time -2
-        $ sudo find ~ -amin -30
-        ```
+* Poderoso comando para buscar arquivos em toda a máquina.
+* Uso: find [diretório onde iniciar a busca] [padrão de busca]
+    ```
+    $ find . -name '*bkp*'
+    $ find . -iname '*bkp*'
+    $ sudo find / -iname '*.jpg'
+    $ find /tmp -size +5M
+    $ sudo find / -time -2
+    $ sudo find ~ -amin -30
+    ```
 
-    * Uso: find [diretório onde iniciar a busca] [padrão de busca]
-    * Pode executar um comando para cada arquivo encontrado. Por exemplo, copiar cada arquivo encontrado para uma pasta de backup:
-        ```
-        $ sudo find /home/images -type f -iname '*.png*' -exec cp {} /dropbox
-        ```
-    * Ou remover todos os arquivos criados no último minuto:
-        ```
-        $ find /tmp -type f -amin -1 -exec rm -f {}
-        ```
+* Uso: find [diretório onde iniciar a busca] [padrão de busca]
+* Pode executar um comando para cada arquivo encontrado. Por exemplo, copiar cada arquivo encontrado para uma pasta de backup:
+    ```
+    $ sudo find /home/images -type f -iname '*.png*' -exec cp {} /dropbox
+    ```
+* Ou remover todos os arquivos criados no último minuto:
+    ```
+    $ find /tmp -type f -amin -1 -exec rm -f {}
+    ```
 
 ## COMANDOS TMUX
