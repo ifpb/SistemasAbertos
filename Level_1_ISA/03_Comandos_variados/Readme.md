@@ -46,6 +46,7 @@ Atualizado por Vinicius Centurion em 2021
     * Mede o tempo gasto para executar um processo (programa)
     * #time [comando] Onde: comando é o comando/programa que se deseja medir o tempo gasto para ser concluído
         * Exemplo:
+        
         terminal# time tar –czf backup.tar.gz /home<br>
         real 0m6.345s<br>
         user 0m2.848s<br>
@@ -54,6 +55,7 @@ Atualizado por Vinicius Centurion em 2021
 1. uptime
     * Mostra o tempo de execução do sistema desde que o computador foi ligado
     * Exemplo:
+
         terminal# uptime<br>
         17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
 
