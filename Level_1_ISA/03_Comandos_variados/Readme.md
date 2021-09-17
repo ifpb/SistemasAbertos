@@ -124,7 +124,7 @@ Atualizado por Vinicius Centurion em 2021
 
 1. more - Faz a paginação de arquivos ou da entrada padrão
     * sintaxe: # more [opções] [arquivos]
-    
+
 1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
     * sintaxe: # less [opções] [arquivos]
 
@@ -146,7 +146,7 @@ Atualizado por Vinicius Centurion em 2021
         -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
 
 1. ln - Cria links (pseudônimos) para arquivos e diretórios no sistema
-    * Sintaxe: # ln [opções][origem] [link]
+    * sintaxe: # ln [opções][origem] [link]
     * Opções mais usada:
         -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
 
@@ -160,48 +160,53 @@ Atualizado por Vinicius Centurion em 2021
 
 1. poweroff, halt
     * Realiza o encerramento do sistema seguido do desligamento da máquina
-    * Sintaxe: # poweroff
-    * Sintaxe: # halt
+    * sintaxe: # poweroff
+    * sintaxe: # halt
 
 1. reboot
     * Realiza o encerramento do sistema seguido da reinicialização da máquina
-    * Sintaxe: # reboot
+    * sintaxe: # reboot
 
 1. shutdown
     * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
-    * Sintaxe: # shutdown [opções] [hora] [mensagem]
+    * sintaxe: # shutdown [opções] [hora] [mensagem]
     * Opções:
         -h – Inicia o processo para desligamento do computador
         -r – Reinicia o sistema
         -c – Cancela a execução do shutdown
+
     * Exemplo:
 
-        > terminal# shutdown –h +1
-        > “Máquina será desligada em 1 min."
+        terminal# shutdown –h +1 <br>
+        “Máquina será desligada em 1 min."
 
 
 ## COMANDOS DE LOCALIZAÇÃO
 
-comando which
-● Imprime a localização real de um comando. Por exemplo:
-○ $ which wget
-○ > /usr/bin/wget
-● É comum que esta ainda não seja a localização real do comando, algumas
-vezes é apenas o link que está no PATH. Por Exemplo:
-○ $ which python
-○ > /usr/bin/python
-○ $ ls -l /usr/bin/python
-○ > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
+1. comando which
+    * Imprime a localização real de um comando. Por exemplo:
+    
+    * $ which wget
+        > /usr/bin/wget
 
-comando grep
-● Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
-○ $ ls /bin | grep ^pas
-○ > passwd
-○ > paste
-○ > pasteurize
-○ > pasuspender
-○ $ cat /etc/passwd | grep root
-○ > root:x:0:0:root:/root:/bin/bash
+    * É comum que esta ainda não seja a localização real do comando, algumas vezes é apenas o link que está no PATH. Por Exemplo:
+    
+    * $ which python
+        * > /usr/bin/python
+    
+    * $ ls -l /usr/bin/python
+        * > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
+
+1. comando grep
+    * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
+        * $ ls /bin | grep ^pas
+            * > passwd
+            * > paste
+            * > pasteurize
+            * > pasuspender
+    
+    * $ cat /etc/passwd | grep root
+        * > root:x:0:0:root:/root:/bin/bash
 
 comando find
 ● Poderoso comando para buscar arquivos em toda a máquina.
