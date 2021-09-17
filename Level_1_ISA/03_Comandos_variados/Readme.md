@@ -185,17 +185,21 @@ Atualizado por Vinicius Centurion em 2021
 
 1. comando which
     * Imprime a localização real de um comando. Por exemplo:
-    
-    * $ which wget
+        ```
+        $ which wget
         > /usr/bin/wget
+        ```
 
     * É comum que esta ainda não seja a localização real do comando, algumas vezes é apenas o link que está no PATH. Por Exemplo:
-    
-    * $ which python
-        * > /usr/bin/python
-    
-    * $ ls -l /usr/bin/python
-        * > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
+        ```
+        $ which python
+        > /usr/bin/python
+        ```
+
+        ```
+        $ ls -l /usr/bin/python
+        > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
+        ```
 
 1. comando grep
     * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
@@ -207,8 +211,10 @@ Atualizado por Vinicius Centurion em 2021
         > pasuspender
         ```
 
-    * $ cat /etc/passwd | grep root
-        * '>root: x:0:0:root:/root:/bin/bash
+        ```
+        $ cat /etc/passwd | grep root
+        > root: x:0:0:root:/root:/bin/bash
+        ```
 
 comando find
 ● Poderoso comando para buscar arquivos em toda a máquina.
