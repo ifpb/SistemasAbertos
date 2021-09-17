@@ -66,7 +66,7 @@ Atualizado por Vinicius Centurion em 2021
         
         ```linux
         # uptime
-        17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
+        > 17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
         ```
 
 ## COMANDOS DE ESPAÇO DE DISCO
@@ -251,12 +251,12 @@ Atualizado por Vinicius Centurion em 2021
 
         ```
         # shutdown –h +1
-        “Máquina será desligada em 1 min."
+        > “Máquina será desligada em 1 min."
         ```
 
 ## COMANDOS DE LOCALIZAÇÃO
 
-1. comando which
+#### comando which
     * Imprime a localização real de um comando. Por exemplo:
 
         ```
@@ -275,7 +275,7 @@ Atualizado por Vinicius Centurion em 2021
         > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
         ```
 
-1. comando grep
+### comando grep
     * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
         ```
         $ ls /bin | grep ^pas
@@ -290,7 +290,7 @@ Atualizado por Vinicius Centurion em 2021
         > root: x:0:0:root:/root:/bin/bash
         ```
 
-1. comando find
+### comando find
     * Poderoso comando para buscar arquivos em toda a máquina.
     * Uso: find [diretório onde iniciar a busca] [padrão de busca]
         ```
