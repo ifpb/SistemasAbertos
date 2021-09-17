@@ -165,26 +165,25 @@ visualizado
 
 ## COMANDOS DE ENCERRAMENTO DO SISTEMA
 
- poweroff, halt - Realiza o encerramento
-do sistema seguido do desligamento da
-máquina
-# poweroff
-# halt
- reboot - Realiza o encerramento do
-sistema seguido da reinicialização da
-máquina
-# reboot
+1. poweroff, halt
+    * Realiza o encerramento do sistema seguido do desligamento da máquina
+    * Sintaxe: # poweroff
+    * Sintaxe: # halt
 
- shutdown - Desliga/reinicia o computador
-imediatamente ou após determinado
-tempo (programável) de forma segura
-# shutdown [opções] [hora] [mensagem]
- Opções
--h – Inicia o processo para desligamento do computador
--r – Reinicia o sistema
--c – Cancela a execução do shutdown
- Exemplo
-# shutdown –h +1 “Máquina será desligada em 1 min."
+1. reboot
+    * Realiza o encerramento do sistema seguido da reinicialização da máquina
+    * Sintaxe: # reboot
+
+1. shutdown
+    * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
+    * Sintaxe: # shutdown [opções] [hora] [mensagem]
+    * Opções:
+        -h – Inicia o processo para desligamento do computador
+        -r – Reinicia o sistema
+        -c – Cancela a execução do shutdown
+    * Exemplo:
+        >> terminal# shutdown –h +1
+        >> “Máquina será desligada em 1 min."
 
 
 ## COMANDOS DE LOCALIZAÇÃO
