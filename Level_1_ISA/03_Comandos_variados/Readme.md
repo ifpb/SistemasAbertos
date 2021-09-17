@@ -339,13 +339,13 @@ Atualizado por Vinicius Centurion em 2021
 
 Comando | Descrição
 ------------ | -------------
-tmux | inicia o tmux
-tmux new -s <nome> | inicie o tmux com <nome>
-tmux ls | mostra a lista de sessões
-tmux a # | anexar a sessão separada
-tmux a -t <nome> | anexe a sessão desanexada a <nome>
-tmux kill-session –t <nome>	| matar a sessão <nome>
-tmux kill-server | matar o servidor tmux
+`tmux` | inicia o tmux
+`tmux new -s <nome>` | `inicia o tmux com <nome>` 
+`tmux ls` | mostra a lista de sessões
+`tmux a #` | anexar a sessão separada
+`tmux a -t <nome>` | `anexa a sessão desanexada a <nome>`
+`tmux kill-session –t <nome>` | `mata a sessão <nome>`
+`tmux kill-server` | matar o servidor tmux
 
 ### Dividindo horizontalmente
 
