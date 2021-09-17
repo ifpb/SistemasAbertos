@@ -113,20 +113,30 @@ Atualizado por Vinicius Centurion em 2021
 
 1. tail
     * Mostra linhas finais de um arquivo texto
-    * sintaxe: # tail [opções] [arquivos]
+    * sintaxe:
+    ```
+    # tail [opções] [arquivos]
+    ```
     * Opções
         * -c [numero] – Mostra o [numero] de bytes do final do arquivo
         * -n [numero] – Mostra o [numero] de linhas do final do arquivo
         * Caso não seja especificado, mostra as 10 últimas linhas
     * Exemplos
-        * #tail /etc/passwd
-        * #tail -n 20 /var/log/syslog
+        ```
+        #tail /etc/passwd
+        #tail -n 20 /var/log/syslog
+        ```
 
 1. more - Faz a paginação de arquivos ou da entrada padrão
-    * sintaxe: # more [opções] [arquivos]
-
+    * sintaxe:
+    ```
+    # more [opções] [arquivos]
+    ```
 1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
-    * sintaxe: # less [opções] [arquivos]
+    * sintaxe:
+    ```
+    # less [opções] [arquivos]
+    ```
 
 1. wc
     * Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
@@ -138,17 +148,23 @@ Atualizado por Vinicius Centurion em 2021
 
 1. sort
     * Organiza as linhas de um arquivo texto ou da entrada padrão
-    * sintaxe: # sort [opções] [arquivos]
+    * sintaxe:
+    ```
+    # sort [opções] [arquivos]
+    ```
     * Opções:
-        -f – Ignora diferenças entre maiúsculas e minúsculas
-        -m – Junta conjunto de arquivos antes de ordenar
-        -r – Inverte o resultado da comparação
-        -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
+        * -f – Ignora diferenças entre maiúsculas e minúsculas
+        * -m – Junta conjunto de arquivos antes de ordenar
+        * -r – Inverte o resultado da comparação
+        * -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
 
 1. ln - Cria links (pseudônimos) para arquivos e diretórios no sistema
-    * sintaxe: # ln [opções][origem] [link]
+    * sintaxe:
+    ```
+    # ln [opções][origem] [link]
+    ```
     * Opções mais usada:
-        -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
+        * -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
 
     * Observações sobre os links
         * Se for usado o comando rm em um link, somente o link será removido 
@@ -160,12 +176,18 @@ Atualizado por Vinicius Centurion em 2021
 
 1. poweroff, halt
     * Realiza o encerramento do sistema seguido do desligamento da máquina
-    * sintaxe: # poweroff
-    * sintaxe: # halt
+    * sintaxe:
+    ```
+    # poweroff
+    # halt
+    ```
 
 1. reboot
     * Realiza o encerramento do sistema seguido da reinicialização da máquina
-    * sintaxe: # reboot
+    * sintaxe:
+    ```
+    # reboot
+    ```
 
 1. shutdown
     * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
@@ -174,9 +196,9 @@ Atualizado por Vinicius Centurion em 2021
         # shutdown [opções] [hora] [mensagem]
         ```
     * Opções:
-        -h – Inicia o processo para desligamento do computador
-        -r – Reinicia o sistema
-        -c – Cancela a execução do shutdown
+        * -h – Inicia o processo para desligamento do computador
+        * -r – Reinicia o sistema
+        * -c – Cancela a execução do shutdown
 
     * Exemplo:
         ```
