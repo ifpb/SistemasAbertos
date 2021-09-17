@@ -45,20 +45,25 @@ Atualizado por Vinicius Centurion em 2021
 1. time
     * Mede o tempo gasto para executar um processo (programa)
     * sintaxe:
+        
         ```
         # time [comando] 
         ```
+
         * Onde: comando é o comando/programa que se deseja medir o tempo gasto para ser concluído
     * Exemplo:
+        
         ```
         # time tar –czf backup.tar.gz /home
         > real 0m6.345s
         > user 0m2.848s
         > sys 0m3.428s
+        ```
 
 1. uptime
     * Mostra o tempo de execução do sistema desde que o computador foi ligado
     * Exemplo:
+        
         ```
         # uptime
         17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
@@ -69,9 +74,11 @@ Atualizado por Vinicius Centurion em 2021
 1. df
     * Mostra o espaço livre/ocupado de cada partição
     * sintaxe:
+        
         ```
         # df [opções]
         ```
+
     * Opções:
         * -h, --human-readable – Mostra o espaço livre/ocupado em MB, KB, GB ao invés
         * -H – Idêntico a -h mas usa 1000 ao invés de 1024 como unidade
@@ -82,9 +89,11 @@ Atualizado por Vinicius Centurion em 2021
 1. du
     * Mostra o espaço ocupado por arquivos e sub-diretórios
     * sintaxe:
+
         ```
         # du [opções] caminhos
         ```
+
     * Opções:
         * -a, --all – Mostra o espaço ocupado por todos os arquivos.
         * -b, --bytes – Mostra o espaço ocupado em bytes.
@@ -99,9 +108,11 @@ Atualizado por Vinicius Centurion em 2021
 1. grep
     * Procura por um texto dentro de arquivo(s) ou na entrada padrão
     * sintaxe:
+
         ```
         # grep [opções] [expressão] [arquivo]
         ```
+
     * Opções:
         * -i, --ignore-case – Ignora diferença entre maiúsculas/minúsculas
         * -n, --line-number – Mostra número das linhas encontradas
@@ -112,15 +123,18 @@ Atualizado por Vinicius Centurion em 2021
 1. head
     * Mostra linhas iniciais de um arquivo texto
     * sintaxe:
+
         ```
         # head [opções] [arquivos]
         ```
+
     * Opções:
         -c [numero] – Mostra o [numero] de bytes do inicio do arquivo
         -n [numero] – Mostra o [numero] de linhas do inicio do arquivo
     
     * Caso não seja especificado, mostra as 10 primeiras linhas
     * Exemplos
+
         ```
         # head /etc/passwd
         # head -n 20 /var/log/syslog
@@ -129,9 +143,11 @@ Atualizado por Vinicius Centurion em 2021
 1. tail
     * Mostra linhas finais de um arquivo texto
     * sintaxe:
+
         ```
         # tail [opções] [arquivos]
         ```
+
     * Opções
         * -c [numero] – Mostra o [numero] de bytes do final do arquivo
         * -n [numero] – Mostra o [numero] de linhas do final do arquivo
@@ -148,7 +164,7 @@ Atualizado por Vinicius Centurion em 2021
         ```
         # more [opções] [arquivos]
         ```
-        
+
 1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
     * sintaxe:
 
