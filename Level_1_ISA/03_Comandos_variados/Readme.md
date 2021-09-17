@@ -15,209 +15,209 @@ Atualizado por Vinicius Centurion em 2021
 
 ## COMANDOS DIVERSOS
 
-1. clear
-    * Limpa a tela e posiciona o cursor no canto superior esquerdo do vídeo
+### clear
+* Limpa a tela e posiciona o cursor no canto superior esquerdo do vídeo
 
-1. uname
-    * Retorna o nome e versão do kernel atual  echo
-    * Mostra mensagens. Útil na construção de scripts para mostrar mensagens na tela para o usuário acompanhar sua execução
+### uname
+* Retorna o nome e versão do kernel atual  echo
+* Mostra mensagens. Útil na construção de scripts para mostrar mensagens na tela para o usuário acompanhar sua execução
 
-1. su
-    * Permite ao usuário mudar sua identidade para outro usuário sem fazer o logout
+### su
+* Permite ao usuário mudar sua identidade para outro usuário sem fazer o logout
 
-1. free
-    * Mostra detalhes sobre a utilização da memória RAM do sistema
-    * Opções: -b / -k / -m
+### free
+* Mostra detalhes sobre a utilização da memória RAM do sistema
+* Opções: -b / -k / -m
 
-1. date
-    * Permite ver/modificar a data e hora do Sistema. 
-    * Apenas root pode modificar a data e hora do sistema: date MesDiaHoraMinuto[AnoSegundos]
+### date
+* Permite ver/modificar a data e hora do Sistema. 
+* Apenas root pode modificar a data e hora do sistema: date MesDiaHoraMinuto[AnoSegundos]
 
-    * +[FORMATO] - Define o formato da listagem que será usada pelo comando date. Os formatos mais usados são:
-        * %d - Dia do Mês (00-31) %m - Mês do Ano (00-12)
-        * %y - Ano (dois dígitos) %Y - Ano (quatro dígitos)
-        * %H - Hora (00-24) %I - Hora (00-12)
-        * %M - Minuto (00-59) %j - Dia do ano (1-366)
-        * %p - AM/PM
+* +[FORMATO] - Define o formato da listagem que será usada pelo comando date. Os formatos mais usados são:
+    * %d - Dia do Mês (00-31) %m - Mês do Ano (00-12)
+    * %y - Ano (dois dígitos) %Y - Ano (quatro dígitos)
+    * %H - Hora (00-24) %I - Hora (00-12)
+    * %M - Minuto (00-59) %j - Dia do ano (1-366)
+    * %p - AM/PM
 
 ## COMANDOS DE TEMPO
 
-1. time
-    * Mede o tempo gasto para executar um processo (programa)
-    * sintaxe:
-        
-        ```
-        # time [comando] 
-        ```
+### time
+* Mede o tempo gasto para executar um processo (programa)
+* sintaxe:
+    
+    ```
+    # time [comando] 
+    ```
 
-        * Onde: comando é o comando/programa que se deseja medir o tempo gasto para ser concluído
-    * Exemplo:
-        
-        ```
-        # time tar –czf backup.tar.gz /home
-        > real 0m6.345s
-        > user 0m2.848s
-        > sys 0m3.428s
-        ```
+    * Onde: comando é o comando/programa que se deseja medir o tempo gasto para ser concluído
+* Exemplo:
+    
+    ```
+    # time tar –czf backup.tar.gz /home
+    > real 0m6.345s
+    > user 0m2.848s
+    > sys 0m3.428s
+    ```
 
-1. uptime
-    * Mostra o tempo de execução do sistema desde que o computador foi ligado
-    * Exemplo:
-        
-        ```linux
-        # uptime
-        > 17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
-        ```
+### uptime
+* Mostra o tempo de execução do sistema desde que o computador foi ligado
+* Exemplo:
+    
+    ```linux
+    # uptime
+    > 17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
+    ```
 
 ## COMANDOS DE ESPAÇO DE DISCO
 
-1. df
-    * Mostra o espaço livre/ocupado de cada partição
-    * sintaxe:
-        
-        ```
-        # df [opções]
-        ```
+### df
+* Mostra o espaço livre/ocupado de cada partição
+* sintaxe:
+    
+    ```
+    # df [opções]
+    ```
 
-    * Opções:
-        * -h, --human-readable – Mostra o espaço livre/ocupado em MB, KB, GB ao invés
-        * -H – Idêntico a -h mas usa 1000 ao invés de 1024 como unidade
-        * -k – Lista em Kbytes.
-        * -l – Somente lista sistema de arquivos locais
-        * -m – Lista em Mbytes
+* Opções:
+    * -h, --human-readable – Mostra o espaço livre/ocupado em MB, KB, GB ao invés
+    * -H – Idêntico a -h mas usa 1000 ao invés de 1024 como unidade
+    * -k – Lista em Kbytes.
+    * -l – Somente lista sistema de arquivos locais
+    * -m – Lista em Mbytes
 
-1. du
-    * Mostra o espaço ocupado por arquivos e sub-diretórios
-    * sintaxe:
+### du
+* Mostra o espaço ocupado por arquivos e sub-diretórios
+* sintaxe:
 
-        ```
-        # du [opções] caminhos
-        ```
+    ```
+    # du [opções] caminhos
+    ```
 
-    * Opções:
-        * -a, --all – Mostra o espaço ocupado por todos os arquivos.
-        * -b, --bytes – Mostra o espaço ocupado em bytes.
-        * -c, --total – Faz uma totalização de todo espaço listado.
-        * -h, --human – Mostra em formato legível por humanos
-        * -H – igual a -h mas usa 1000 como unidade de cálculo
-        * -k – Mostra o espaço ocupado em Kbytes
-        * -m – Mostra o espaço ocupado em Mbytes
+* Opções:
+    * -a, --all – Mostra o espaço ocupado por todos os arquivos.
+    * -b, --bytes – Mostra o espaço ocupado em bytes.
+    * -c, --total – Faz uma totalização de todo espaço listado.
+    * -h, --human – Mostra em formato legível por humanos
+    * -H – igual a -h mas usa 1000 como unidade de cálculo
+    * -k – Mostra o espaço ocupado em Kbytes
+    * -m – Mostra o espaço ocupado em Mbytes
 
 ## COMANDOS DE MANIPULAÇÃO DE ARQUIVOS
 
-1. grep
-    * Procura por um texto dentro de arquivo(s) ou na entrada padrão
-    * sintaxe:
+### grep
+* Procura por um texto dentro de arquivo(s) ou na entrada padrão
+* sintaxe:
 
-        ```
-        # grep [opções] [expressão] [arquivo]
-        ```
+    ```
+    # grep [opções] [expressão] [arquivo]
+    ```
 
-    * Opções:
-        * -i, --ignore-case – Ignora diferença entre maiúsculas/minúsculas
-        * -n, --line-number – Mostra número das linhas encontradas
-        * -l – Lista apenas os nomes de arquivos, mas não as linhas
-        * -c – Lista apenas a quantidade de linhas onde aparece o texto
-        * -v – Lista linhas que não contêm o texto
+* Opções:
+    * -i, --ignore-case – Ignora diferença entre maiúsculas/minúsculas
+    * -n, --line-number – Mostra número das linhas encontradas
+    * -l – Lista apenas os nomes de arquivos, mas não as linhas
+    * -c – Lista apenas a quantidade de linhas onde aparece o texto
+    * -v – Lista linhas que não contêm o texto
 
-1. head
-    * Mostra linhas iniciais de um arquivo texto
-    * sintaxe:
+### head
+* Mostra linhas iniciais de um arquivo texto
+* sintaxe:
 
-        ```
-        # head [opções] [arquivos]
-        ```
+    ```
+    # head [opções] [arquivos]
+    ```
 
-    * Opções:
-        -c [numero] – Mostra o [numero] de bytes do inicio do arquivo
-        -n [numero] – Mostra o [numero] de linhas do inicio do arquivo
-    
-    * Caso não seja especificado, mostra as 10 primeiras linhas
-    * Exemplos
+* Opções:
+    -c [numero] – Mostra o [numero] de bytes do inicio do arquivo
+    -n [numero] – Mostra o [numero] de linhas do inicio do arquivo
 
-        ```
-        # head /etc/passwd
-        # head -n 20 /var/log/syslog
-        ```
+* Caso não seja especificado, mostra as 10 primeiras linhas
+* Exemplos
 
-1. tail
-    * Mostra linhas finais de um arquivo texto
-    * sintaxe:
+    ```
+    # head /etc/passwd
+    # head -n 20 /var/log/syslog
+    ```
 
-        ```
-        # tail [opções] [arquivos]
-        ```
+### tail
+* Mostra linhas finais de um arquivo texto
+* sintaxe:
 
-    * Opções
-        * -c [numero] – Mostra o [numero] de bytes do final do arquivo
-        * -n [numero] – Mostra o [numero] de linhas do final do arquivo
-        * Caso não seja especificado, mostra as 10 últimas linhas
-    * Exemplos
-        ```
-        #tail /etc/passwd
-        #tail -n 20 /var/log/syslog
-        ```
+    ```
+    # tail [opções] [arquivos]
+    ```
 
-1. more - Faz a paginação de arquivos ou da entrada padrão
-    * sintaxe:
+* Opções
+    * -c [numero] – Mostra o [numero] de bytes do final do arquivo
+    * -n [numero] – Mostra o [numero] de linhas do final do arquivo
+    * Caso não seja especificado, mostra as 10 últimas linhas
+* Exemplos
+    ```
+    #tail /etc/passwd
+    #tail -n 20 /var/log/syslog
+    ```
 
-        ```
-        # more [opções] [arquivos]
-        ```
+### more - Faz a paginação de arquivos ou da entrada padrão
+* sintaxe:
 
-1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
-    * sintaxe:
+    ```
+    # more [opções] [arquivos]
+    ```
 
-        ```
-        # less [opções] [arquivos]
-        ```
+### less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
+* sintaxe:
 
-1. wc
-    * Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
-    * sintaxe:
+    ```
+    # less [opções] [arquivos]
+    ```
 
-        ```
-        # wc [opções] [arquivos]
-        ```
+### wc
+* Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
+* sintaxe:
 
-    * Opções:
-        * -c, --bytes – Mostra os bytes do arquivo.
-        * -w, --words – Mostra a quantidade de palavras do arquivo
-        * -l, --lines – Mostra a quantidade de linhas do arquivo
+    ```
+    # wc [opções] [arquivos]
+    ```
 
-1. sort
-    * Organiza as linhas de um arquivo texto ou da entrada padrão
-    * sintaxe:
+* Opções:
+    * -c, --bytes – Mostra os bytes do arquivo.
+    * -w, --words – Mostra a quantidade de palavras do arquivo
+    * -l, --lines – Mostra a quantidade de linhas do arquivo
 
-        ```
-        # sort [opções] [arquivos]
-        ```
+### sort
+* Organiza as linhas de um arquivo texto ou da entrada padrão
+* sintaxe:
 
-    * Opções:
-        * -f – Ignora diferenças entre maiúsculas e minúsculas
-        * -m – Junta conjunto de arquivos antes de ordenar
-        * -r – Inverte o resultado da comparação
-        * -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
+    ```
+    # sort [opções] [arquivos]
+    ```
 
-1. ln - Cria links (pseudônimos) para arquivos e diretórios no sistema
-    * sintaxe:
+* Opções:
+    * -f – Ignora diferenças entre maiúsculas e minúsculas
+    * -m – Junta conjunto de arquivos antes de ordenar
+    * -r – Inverte o resultado da comparação
+    * -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
 
-        ```
-        # ln [opções][origem] [link]
-        ```
+### ln 
+* Cria links (pseudônimos) para arquivos e diretórios no sistema
+* sintaxe:
+    ```
+    # ln [opções][origem] [link]
+    ```
 
-    * Opções mais usada:
-        * -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
+* Opções mais usada:
+    * -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
 
-    * Observações sobre os links
-        * Se for usado o comando rm em um link, somente o link será removido 
-        * Se for usado o comando cp em um link, o arquivo original será copiado ao invés do link
-        * Se for usado o comando mv em um link, a modificação será feita no link 
-        * Se for usado um comando de visualização (como o cat), o arquivo original será visualizado
+* Observações sobre os links
+    * Se for usado o comando rm em um link, somente o link será removido 
+    * Se for usado o comando cp em um link, o arquivo original será copiado ao invés do link
+    * Se for usado o comando mv em um link, a modificação será feita no link 
+    * Se for usado um comando de visualização (como o cat), o arquivo original será visualizado
 
 ## COMANDOS DE ENCERRAMENTO DO SISTEMA
 
-1. poweroff, halt
+### poweroff, halt
     * Realiza o encerramento do sistema seguido do desligamento da máquina
     * sintaxe:
 
@@ -226,7 +226,7 @@ Atualizado por Vinicius Centurion em 2021
         # halt
         ```
 
-1. reboot
+### reboot
     * Realiza o encerramento do sistema seguido da reinicialização da máquina
     * sintaxe:
 
@@ -234,7 +234,7 @@ Atualizado por Vinicius Centurion em 2021
         # reboot
         ```
 
-1. shutdown
+### shutdown
     * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
     * sintaxe:
 
@@ -256,7 +256,7 @@ Atualizado por Vinicius Centurion em 2021
 
 ## COMANDOS DE LOCALIZAÇÃO
 
-1. ### comando which
+### comando which
 * Imprime a localização real de um comando. Por exemplo:
     ```
     $ which wget
@@ -274,7 +274,7 @@ Atualizado por Vinicius Centurion em 2021
     > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
     ```
 
-1. ### comando grep
+### comando grep
 * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
     
     ```
@@ -290,7 +290,7 @@ Atualizado por Vinicius Centurion em 2021
     > root: x:0:0:root:/root:/bin/bash
     ```
 
-1. ### comando find
+### comando find
 * Poderoso comando para buscar arquivos em toda a máquina.
 * Uso: find [diretório onde iniciar a busca] [padrão de busca]
     ```
