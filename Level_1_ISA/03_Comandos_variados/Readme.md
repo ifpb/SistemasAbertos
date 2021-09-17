@@ -199,14 +199,16 @@ Atualizado por Vinicius Centurion em 2021
 
 1. comando grep
     * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
-        * $ ls /bin | grep ^pas
-            * > passwd
-            * > paste
-            * > pasteurize
-            * > pasuspender
-    
+        ```
+        $ ls /bin | grep ^pas
+        > passwd
+        > paste
+        > pasteurize
+        > pasuspender
+        ```
+
     * $ cat /etc/passwd | grep root
-        * > root:x:0:0:root:/root:/bin/bash
+        * '>root: x:0:0:root:/root:/bin/bash
 
 comando find
 ● Poderoso comando para buscar arquivos em toda a máquina.
