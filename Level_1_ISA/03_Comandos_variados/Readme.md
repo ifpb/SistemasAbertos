@@ -256,7 +256,7 @@ Atualizado por Vinicius Centurion em 2021
 
 ## COMANDOS DE LOCALIZAÇÃO
 
-#### comando which
+1. ### comando which
 * Imprime a localização real de um comando. Por exemplo:
     ```
     $ which wget
@@ -274,7 +274,7 @@ Atualizado por Vinicius Centurion em 2021
     > lrwxrwxrwx 1 root root 7 abr 15 2020 /usr/bin/python -> python2
     ```
 
-### comando grep
+1. ### comando grep
 * Usado para filtrar uma saída, exibindo apenas o que quer. Por exemplo:
     
     ```
@@ -290,7 +290,7 @@ Atualizado por Vinicius Centurion em 2021
     > root: x:0:0:root:/root:/bin/bash
     ```
 
-### comando find
+1. ### comando find
 * Poderoso comando para buscar arquivos em toda a máquina.
 * Uso: find [diretório onde iniciar a busca] [padrão de busca]
     ```
