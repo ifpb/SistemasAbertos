@@ -122,10 +122,11 @@ Atualizado por Vinicius Centurion em 2021
         * #tail /etc/passwd
         * #tail -n 20 /var/log/syslog
 
- more - Faz a paginação de arquivos ou da entrada padrão
-# more [opções] [arquivos]
- less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
-# less [opções] [arquivos]
+1. more - Faz a paginação de arquivos ou da entrada padrão
+    * sintaxe: # more [opções] [arquivos]
+    
+1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
+    * sintaxe: # less [opções] [arquivos]
 
 1. wc
     * Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
@@ -144,24 +145,16 @@ Atualizado por Vinicius Centurion em 2021
         -r – Inverte o resultado da comparação
         -n – Caso estja organizando um campo que contém números, os números serão organizados na ordem aritmética
 
- ln - Cria links (pseudônimos) para
-arquivos e diretórios no sistema
-# ln [opções][origem] [link]
- Opções mais usada
--s – Cria um link simbólico. Usado para criar ligações com o
-arquivo/diretório de destino.
+1. ln - Cria links (pseudônimos) para arquivos e diretórios no sistema
+    * Sintaxe: # ln [opções][origem] [link]
+    * Opções mais usada:
+        -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
 
- Observações sobre os links
-◦ Se for usado o comando rm em um link,
-somente o link será removido
-◦ Se for usado o comando cp em um link, o
-arquivo original será copiado ao invés do link
-◦ Se for usado o comando mv em um link, a
-modificação será feita no link
-◦ Se for usado um comando de visualização
-(como o cat), o arquivo original será
-visualizado
-
+    * Observações sobre os links
+        * Se for usado o comando rm em um link, somente o link será removido 
+        * Se for usado o comando cp em um link, o arquivo original será copiado ao invés do link
+        * Se for usado o comando mv em um link, a modificação será feita no link 
+        * Se for usado um comando de visualização (como o cat), o arquivo original será visualizado
 
 ## COMANDOS DE ENCERRAMENTO DO SISTEMA
 
