@@ -159,14 +159,16 @@ Atualizado por Vinicius Centurion em 2021
     #tail -n 20 /var/log/syslog
     ```
 
-### more - Faz a paginação de arquivos ou da entrada padrão
+### more
+* Faz a paginação de arquivos ou da entrada padrão
 * sintaxe:
 
     ```
     # more [opções] [arquivos]
     ```
 
-### less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
+### less 
+* Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
 * sintaxe:
 
     ```
