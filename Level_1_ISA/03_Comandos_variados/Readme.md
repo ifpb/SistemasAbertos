@@ -365,11 +365,12 @@ Comando | Descrição
     $ CTRL+B , seta para baixo / seta para cima
     ```
 
-* A divisão pode ser fechada a partir do comando "logout", ou "exit", na janela que deseja fechar:
+* A divisão pode ser fechada a partir do comando "logout", "exit", ou prefixo + x na janela que deseja fechar:
 
     ```
     $ logout
     $ exit
+    $ CTRL+B , x
     ```
 
 ### Dividindo verticalmente
@@ -388,15 +389,13 @@ Comando | Descrição
 
     ```
     $ CTRL+B , seta para direita / seta para esquerda
+    $ CTRL+B , o
     ```
 
-* A divisão pode ser fechada a partir do comando "logout", ou "exit", na janela que deseja fechar:
+* A divisão pode ser fechada a partir do comando "logout", "exit", ou prefixo + x na janela que deseja fechar:
 
     ```
     $ logout
     $ exit
+    $ CTRL+B , x
     ```
-
-### Navegando com as setas direcionais
-
-### Encerrando o terminal virtual
