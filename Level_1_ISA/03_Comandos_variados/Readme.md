@@ -169,17 +169,20 @@ Atualizado por Vinicius Centurion em 2021
 
 1. shutdown
     * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
-    * sintaxe: # shutdown [opções] [hora] [mensagem]
+    * sintaxe: 
+        ```
+        # shutdown [opções] [hora] [mensagem]
+        ```
     * Opções:
         -h – Inicia o processo para desligamento do computador
         -r – Reinicia o sistema
         -c – Cancela a execução do shutdown
 
     * Exemplo:
-
-        terminal# shutdown –h +1 <br>
+        ```
+        terminal# shutdown –h +1
         “Máquina será desligada em 1 min."
-
+        ```
 
 ## COMANDOS DE LOCALIZAÇÃO
 
@@ -216,22 +219,26 @@ Atualizado por Vinicius Centurion em 2021
         > root: x:0:0:root:/root:/bin/bash
         ```
 
-comando find
-● Poderoso comando para buscar arquivos em toda a máquina.
-● Uso: find [diretório onde iniciar a busca] [padrão de busca]
-○ $ find . -name '*bkp*'
-○ $ find . -iname '*bkp*'
-○ $ sudo find / -iname '*.jpg'
-○ $ find /tmp -size +5M
-○ $ sudo find / -time -2
-○ $ sudo find ~ -amin -30
+1. comando find
+    * Poderoso comando para buscar arquivos em toda a máquina.
+    * Uso: find [diretório onde iniciar a busca] [padrão de busca]
+        ```
+        $ find . -name '*bkp*'
+        $ find . -iname '*bkp*'
+        $ sudo find / -iname '*.jpg'
+        $ find /tmp -size +5M
+        $ sudo find / -time -2
+        $ sudo find ~ -amin -30
+        ```
 
-comando find
-● Uso: find [diretório onde iniciar a busca] [padrão de busca]
-● Pode executar um comando para cada arquivo encontrado. Por exemplo,
-copiar cada arquivo encontrado para uma pasta de backup:
-○ $ sudo find /home/images -type f -iname '*.png*' -exec cp {} /dropbox
-● Ou remover todos os arquivos criados no último minuto:
-○ $ find /tmp -type f -amin -1 -exec rm -f {}
+    * Uso: find [diretório onde iniciar a busca] [padrão de busca]
+    * Pode executar um comando para cada arquivo encontrado. Por exemplo, copiar cada arquivo encontrado para uma pasta de backup:
+        ```
+        $ sudo find /home/images -type f -iname '*.png*' -exec cp {} /dropbox
+        ```
+    * Ou remover todos os arquivos criados no último minuto:
+        ```
+        $ find /tmp -type f -amin -1 -exec rm -f {}
+        ```
 
 ## COMANDOS TMUX
