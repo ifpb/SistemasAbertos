@@ -313,3 +313,29 @@ Atualizado por Vinicius Centurion em 2021
     ```
 
 ## COMANDOS TMUX
+
+### Conhecendo o TMUX
+
+* Tmux é um multiplexador de terminal: ele permite que uma série de terminais sejam criados, acessados e controlados a partir de uma única tela.
+* Quando o tmux é iniciado, ele cria uma nova sessão com uma única janela e a exibe na tela. Uma linha de status na parte inferior da tela mostra informações sobre a sessão atual e é usada para inserir comandos interativos.
+
+### Instalando o TMUX
+* Via apt-get no Debian:
+    ```
+    # apt-get install tmux
+    ```
+
+### Inicializando o tmux
+* Faça a chamada do tmux no terminal após o login:
+    
+    ```
+    # tmux
+    ```
+
+### Dividindo horizontalmente
+
+### Dividindo verticalmente
+
+### Navegando com as setas direcionais
+
+### Encerrando o terminal virtual
