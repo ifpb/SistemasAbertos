@@ -316,11 +316,16 @@ Atualizado por Vinicius Centurion em 2021
 
 ### Conhecendo o TMUX
 
+![tmux](tmux.png)
+
 * Tmux é um multiplexador de terminal: ele permite que uma série de terminais sejam criados, acessados e controlados a partir de uma única tela.
 * Quando o tmux é iniciado, ele cria uma nova sessão com uma única janela e a exibe na tela. Uma linha de status na parte inferior da tela mostra informações sobre a sessão atual e é usada para inserir comandos interativos.
 
+![tmux2](tmux2.png)
+
 ### Instalando o TMUX
 * Via apt-get no Debian:
+    
     ```
     # apt-get install tmux
     ```
