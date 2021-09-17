@@ -44,30 +44,34 @@ Atualizado por Vinicius Centurion em 2021
 
 1. time
     * Mede o tempo gasto para executar um processo (programa)
-    * #time [comando] Onde: comando é o comando/programa que se deseja medir o tempo gasto para ser concluído
-        * Exemplo:
-
-            terminal# time tar –czf backup.tar.gz /home<br>
-            real 0m6.345s<br>
-            user 0m2.848s<br>
-            sys 0m3.428s
+    * Sintaxe
+        ```
+        # time [comando] 
+        ```
+        * Onde: comando é o comando/programa que se deseja medir o tempo gasto para ser concluído
+    * Exemplo:
+        ```
+        # time tar –czf backup.tar.gz /home
+        > real 0m6.345s
+        > user 0m2.848s
+        > sys 0m3.428s
 
 1. uptime
     * Mostra o tempo de execução do sistema desde que o computador foi ligado
     * Exemplo:
-
-        terminal# uptime<br>
+        ```
+        # uptime
         17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
-
-
-
-
+        ```
 
 ## COMANDOS DE ESPAÇO DE DISCO
 
 1. df
     * Mostra o espaço livre/ocupado de cada partição
-    * sintaxe: # df [opções]
+    * sintaxe:
+        ```
+        # df [opções]
+        ```
     * Opções:
         * -h, --human-readable – Mostra o espaço livre/ocupado em MB, KB, GB ao invés
         * -H – Idêntico a -h mas usa 1000 ao invés de 1024 como unidade
@@ -77,7 +81,10 @@ Atualizado por Vinicius Centurion em 2021
 
 1. du
     * Mostra o espaço ocupado por arquivos e sub-diretórios
-    * sintaxe: # du [opções] caminhos
+    * sintaxe:
+        ```
+        # du [opções] caminhos
+        ```
     * Opções:
         * -a, --all – Mostra o espaço ocupado por todos os arquivos.
         * -b, --bytes – Mostra o espaço ocupado em bytes.
@@ -91,7 +98,10 @@ Atualizado por Vinicius Centurion em 2021
 
 1. grep
     * Procura por um texto dentro de arquivo(s) ou na entrada padrão
-    * sintaxe: # grep [opções] [expressão] [arquivo]
+    * sintaxe:
+        ```
+        # grep [opções] [expressão] [arquivo]
+        ```
     * Opções:
         * -i, --ignore-case – Ignora diferença entre maiúsculas/minúsculas
         * -n, --line-number – Mostra número das linhas encontradas
@@ -101,22 +111,27 @@ Atualizado por Vinicius Centurion em 2021
 
 1. head
     * Mostra linhas iniciais de um arquivo texto
-    * sintaxe: # head [opções] [arquivos]
+    * sintaxe:
+        ```
+        # head [opções] [arquivos]
+        ```
     * Opções:
         -c [numero] – Mostra o [numero] de bytes do inicio do arquivo
         -n [numero] – Mostra o [numero] de linhas do inicio do arquivo
     
     * Caso não seja especificado, mostra as 10 primeiras linhas
     * Exemplos
-        * #head /etc/passwd
-        * #head -n 20 /var/log/syslog
+        ```
+        # head /etc/passwd
+        # head -n 20 /var/log/syslog
+        ```
 
 1. tail
     * Mostra linhas finais de um arquivo texto
     * sintaxe:
-    ```
-    # tail [opções] [arquivos]
-    ```
+        ```
+        # tail [opções] [arquivos]
+        ```
     * Opções
         * -c [numero] – Mostra o [numero] de bytes do final do arquivo
         * -n [numero] – Mostra o [numero] de linhas do final do arquivo
@@ -129,18 +144,21 @@ Atualizado por Vinicius Centurion em 2021
 
 1. more - Faz a paginação de arquivos ou da entrada padrão
     * sintaxe:
-    ```
-    # more [opções] [arquivos]
-    ```
+        ```
+        # more [opções] [arquivos]
+        ```
 1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
     * sintaxe:
-    ```
-    # less [opções] [arquivos]
-    ```
+        ```
+        # less [opções] [arquivos]
+        ```
 
 1. wc
     * Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
-    * sintaxe: # wc [opções] [arquivos]
+    * sintaxe:
+        ```
+        # wc [opções] [arquivos]
+        ```
     * Opções:
         * -c, --bytes – Mostra os bytes do arquivo.
         * -w, --words – Mostra a quantidade de palavras do arquivo
@@ -149,9 +167,9 @@ Atualizado por Vinicius Centurion em 2021
 1. sort
     * Organiza as linhas de um arquivo texto ou da entrada padrão
     * sintaxe:
-    ```
-    # sort [opções] [arquivos]
-    ```
+        ```
+        # sort [opções] [arquivos]
+        ```
     * Opções:
         * -f – Ignora diferenças entre maiúsculas e minúsculas
         * -m – Junta conjunto de arquivos antes de ordenar
@@ -160,9 +178,9 @@ Atualizado por Vinicius Centurion em 2021
 
 1. ln - Cria links (pseudônimos) para arquivos e diretórios no sistema
     * sintaxe:
-    ```
-    # ln [opções][origem] [link]
-    ```
+        ```
+        # ln [opções][origem] [link]
+        ```
     * Opções mais usada:
         * -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
 
@@ -177,17 +195,17 @@ Atualizado por Vinicius Centurion em 2021
 1. poweroff, halt
     * Realiza o encerramento do sistema seguido do desligamento da máquina
     * sintaxe:
-    ```
-    # poweroff
-    # halt
-    ```
+        ```
+        # poweroff
+        # halt
+        ```
 
 1. reboot
     * Realiza o encerramento do sistema seguido da reinicialização da máquina
     * sintaxe:
-    ```
-    # reboot
-    ```
+        ```
+        # reboot
+        ```
 
 1. shutdown
     * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
