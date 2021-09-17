@@ -5,13 +5,13 @@ Baseado no Material do Prof. Leônidas Lima Júnior, leonidas.lima@gmail.com, (2
 Atualizado por Vinicius Centurion em 2021
 
 ## SUMÁRIO
-* [Comandos diversos](comandos-diversos)
-* [Comandos de tempo](comandos-de-tempo)
-* [Comandos de espaço de disco](comando-de-espaço-de-disco)
-* [Comandos de manipulação de arquivos](comandos-de-manipulação-de-arquivos)
-* [Comandos de encerramento do sistema](comandos-de-encerramento-do-sistema)
-* [Comandos de localização](comandos-de-localização)
-* [Comandos TMUX](comandos-tmux)
+* [Comandos diversos](#comandos-diversos)
+* [Comandos de tempo](#comandos-de-tempo)
+* [Comandos de espaço de disco](#comandos-de-espaço-de-disco)
+* [Comandos de manipulação de arquivos](#comandos-de-manipulação-de-arquivos)
+* [Comandos de encerramento do sistema](#comandos-de-encerramento-do-sistema)
+* [Comandos de localização](#comandos-de-localização)
+* [Comandos TMUX](#comandos-tmux)
 
 ## COMANDOS DIVERSOS
 
