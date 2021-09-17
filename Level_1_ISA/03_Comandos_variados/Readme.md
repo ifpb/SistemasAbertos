@@ -359,6 +359,19 @@ Comando | Descrição
     
     ![div_h](imagens/div_h.png)
 
+* Para alternar entre as janelas, utilize: Prefixo + seta direcional
+
+    ```
+    $ CTRL+B , seta para baixo / seta para cima
+    ```
+
+* A divisão pode ser fechada a partir do comando "logout", ou "exit", na janela que deseja fechar:
+
+    ```
+    $ logout
+    $ exit
+    ```
+
 ### Dividindo verticalmente
 
 * Prefixo + %
@@ -370,6 +383,19 @@ Comando | Descrição
     * o prefixo de entrada de comando corresponte as teclas CTRL+b
     
     ![div_v](imagens/div_v.png)
+
+* Para alternar entre as janelas, utilize: Prefixo + seta direcional
+
+    ```
+    $ CTRL+B , seta para direita / seta para esquerda
+    ```
+
+* A divisão pode ser fechada a partir do comando "logout", ou "exit", na janela que deseja fechar:
+
+    ```
+    $ logout
+    $ exit
+    ```
 
 ### Navegando com as setas direcionais
 
