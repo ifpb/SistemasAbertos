@@ -64,7 +64,7 @@ Atualizado por Vinicius Centurion em 2021
     * Mostra o tempo de execução do sistema desde que o computador foi ligado
     * Exemplo:
         
-        ```
+        ```linux
         # uptime
         17:16:48 up 31 days, 10:00, 1 user, load average: 0.32, 0.54, 0.38
         ```
