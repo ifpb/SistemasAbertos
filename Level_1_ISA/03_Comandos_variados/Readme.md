@@ -222,52 +222,54 @@ Atualizado por Vinicius Centurion em 2021
 ## COMANDOS DE ENCERRAMENTO DO SISTEMA
 
 ### poweroff, halt
-    * Realiza o encerramento do sistema seguido do desligamento da máquina
-    * sintaxe:
+* Realiza o encerramento do sistema seguido do desligamento da máquina
+* sintaxe:
 
-        ```
-        # poweroff
-        # halt
-        ```
+    ```
+    # poweroff
+    # halt
+    ```
 
 ### reboot
-    * Realiza o encerramento do sistema seguido da reinicialização da máquina
-    * sintaxe:
+* Realiza o encerramento do sistema seguido da reinicialização da máquina
+* sintaxe:
 
-        ```
-        # reboot
-        ```
+    ```
+    # reboot
+    ```
 
 ### shutdown
-    * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
-    * sintaxe:
+* Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
+* sintaxe:
 
-        ```
-        # shutdown [opções] [hora] [mensagem]
-        ```
+    ```
+    # shutdown [opções] [hora] [mensagem]
+    ```
 
-    * Opções:
-        * -h – Inicia o processo para desligamento do computador
-        * -r – Reinicia o sistema
-        * -c – Cancela a execução do shutdown
+* Opções:
+    * -h – Inicia o processo para desligamento do computador
+    * -r – Reinicia o sistema
+    * -c – Cancela a execução do shutdown
 
-    * Exemplo:
+* Exemplo:
 
-        ```
-        # shutdown –h +1
-        > “Máquina será desligada em 1 min."
-        ```
+    ```
+    # shutdown –h +1
+    > “Máquina será desligada em 1 min."
+    ```
 
 ## COMANDOS DE LOCALIZAÇÃO
 
 ### comando which
 * Imprime a localização real de um comando. Por exemplo:
+
     ```
     $ which wget
     > /usr/bin/wget
     ```
 
 * É comum que esta ainda não seja a localização real do comando, algumas vezes é apenas o link que está no PATH. Por Exemplo:
+
     ```
     $ which python
     > /usr/bin/python
@@ -297,6 +299,7 @@ Atualizado por Vinicius Centurion em 2021
 ### comando find
 * Poderoso comando para buscar arquivos em toda a máquina.
 * Uso: find [diretório onde iniciar a busca] [padrão de busca]
+
     ```
     $ find . -name '*bkp*'
     $ find . -iname '*bkp*'
@@ -308,10 +311,13 @@ Atualizado por Vinicius Centurion em 2021
 
 * Uso: find [diretório onde iniciar a busca] [padrão de busca]
 * Pode executar um comando para cada arquivo encontrado. Por exemplo, copiar cada arquivo encontrado para uma pasta de backup:
+
     ```
     $ sudo find /home/images -type f -iname '*.png*' -exec cp {} /dropbox
     ```
+
 * Ou remover todos os arquivos criados no último minuto:
+
     ```
     $ find /tmp -type f -amin -1 -exec rm -f {}
     ```
