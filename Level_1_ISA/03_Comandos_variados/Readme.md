@@ -44,7 +44,7 @@ Atualizado por Vinicius Centurion em 2021
 
 1. time
     * Mede o tempo gasto para executar um processo (programa)
-    * Sintaxe
+    * sintaxe:
         ```
         # time [comando] 
         ```
@@ -144,11 +144,14 @@ Atualizado por Vinicius Centurion em 2021
 
 1. more - Faz a paginação de arquivos ou da entrada padrão
     * sintaxe:
+
         ```
         # more [opções] [arquivos]
         ```
+        
 1. less - Realiza a paginação de arquivos ou da entrada padrão, de maneira semelhante ao more, mas permite o uso do PgUp/PgDn
     * sintaxe:
+
         ```
         # less [opções] [arquivos]
         ```
@@ -156,9 +159,11 @@ Atualizado por Vinicius Centurion em 2021
 1. wc
     * Conta o número de palavras, bytes e linhas em um arquivo ou entrada padrão. Se as opções forem omitidas, o wc mostra a quantidade de linhas, palavras, e bytes.
     * sintaxe:
+
         ```
         # wc [opções] [arquivos]
         ```
+
     * Opções:
         * -c, --bytes – Mostra os bytes do arquivo.
         * -w, --words – Mostra a quantidade de palavras do arquivo
@@ -167,9 +172,11 @@ Atualizado por Vinicius Centurion em 2021
 1. sort
     * Organiza as linhas de um arquivo texto ou da entrada padrão
     * sintaxe:
+
         ```
         # sort [opções] [arquivos]
         ```
+
     * Opções:
         * -f – Ignora diferenças entre maiúsculas e minúsculas
         * -m – Junta conjunto de arquivos antes de ordenar
@@ -178,9 +185,11 @@ Atualizado por Vinicius Centurion em 2021
 
 1. ln - Cria links (pseudônimos) para arquivos e diretórios no sistema
     * sintaxe:
+
         ```
         # ln [opções][origem] [link]
         ```
+
     * Opções mais usada:
         * -s – Cria um link simbólico. Usado para criar ligações com o arquivo/diretório de destino.
 
@@ -195,6 +204,7 @@ Atualizado por Vinicius Centurion em 2021
 1. poweroff, halt
     * Realiza o encerramento do sistema seguido do desligamento da máquina
     * sintaxe:
+
         ```
         # poweroff
         # halt
@@ -203,22 +213,26 @@ Atualizado por Vinicius Centurion em 2021
 1. reboot
     * Realiza o encerramento do sistema seguido da reinicialização da máquina
     * sintaxe:
+
         ```
         # reboot
         ```
 
 1. shutdown
     * Desliga/reinicia o computador imediatamente ou após determinado tempo (programável) de forma segura
-    * sintaxe: 
+    * sintaxe:
+
         ```
         # shutdown [opções] [hora] [mensagem]
         ```
+
     * Opções:
         * -h – Inicia o processo para desligamento do computador
         * -r – Reinicia o sistema
         * -c – Cancela a execução do shutdown
 
     * Exemplo:
+
         ```
         terminal# shutdown –h +1
         “Máquina será desligada em 1 min."
@@ -228,6 +242,7 @@ Atualizado por Vinicius Centurion em 2021
 
 1. comando which
     * Imprime a localização real de um comando. Por exemplo:
+
         ```
         $ which wget
         > /usr/bin/wget
