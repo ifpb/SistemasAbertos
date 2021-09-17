@@ -5,13 +5,13 @@ Baseado no Material do Prof. Leônidas Lima Júnior, leonidas.lima@gmail.com, (2
 Atualizado por Vinicius Centurion em 2021
 
 ## SUMÁRIO
-* Comandos diversos
-* Comandos de tempo
-* Comandos de espaço de disco
-* Comandos de manipulação com arquivos
-* Comandos de encerramento do sistema
-* Comandos de localização
-* Comandos TMUX
+* [Comandos diversos](comandos-diversos)
+* [Comandos de tempo](comandos-de-tempo)
+* [Comandos de espaço de disco](comando-de-espaço-de-disco)
+* [Comandos de manipulação de arquivos](comandos-de-manipulação-de-arquivos)
+* [Comandos de encerramento do sistema](comandos-de-encerramento-do-sistema)
+* [Comandos de localização](comandos-de-localização)
+* [Comandos TMUX](comandos-tmux)
 
 ## COMANDOS DIVERSOS
 
@@ -250,7 +250,7 @@ Atualizado por Vinicius Centurion em 2021
     * Exemplo:
 
         ```
-        terminal# shutdown –h +1
+        # shutdown –h +1
         “Máquina será desligada em 1 min."
         ```
 
