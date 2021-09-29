@@ -1,8 +1,6 @@
 ![ISA](ISA_IFPB.png)
 
-# INTRODUÇÃO A SISTEMAS ABERTOS
-
-Repositório com material da disciplinas de Introdução a Sistemas Abertos do IFPB (ISA)
+# Repositório com material da disciplinas de Introdução a Sistemas Abertos do IFPB (ISA)
 
 ## CONTEÚDOS
 
