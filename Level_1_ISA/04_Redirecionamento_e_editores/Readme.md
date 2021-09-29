@@ -138,7 +138,6 @@ Atualizado por Vinicius Centurion em 2021
 ### COMANDOS DO VI
 
 * Movimentação de palavra
-
     * w - pula uma palavra
     * 2w - pula duas palavras
     * b - volta uma palavra
@@ -147,7 +146,6 @@ Atualizado por Vinicius Centurion em 2021
     * ^ - vai para o inicio da linha
 
 * Controle do cursor
-
     * G - final do arquivo
     * #G - vai para uma linha qualquer
     * Ctrl g - informa a linha que você foi
@@ -157,7 +155,6 @@ Atualizado por Vinicius Centurion em 2021
     * Ctrl d - avança metade da página
     * L - última linha da tela
     * H - início da tela
-
 
 * Entrada de dados (ativa modo de edição)
     * a - acrescenta texto depois do cursor
@@ -178,7 +175,6 @@ Atualizado por Vinicius Centurion em 2021
     * d^ - deleta até o início da linha
 
 * Alteração de texto
-
     * r - substitui caractere
     * R - substitui todas as letras até pressionar ESC
     * cw - altera palavra
@@ -188,7 +184,6 @@ Atualizado por Vinicius Centurion em 2021
     * u - desfaz última alteração
 
 * Cópia de texto
-
     * yw - copia palavra corrente
     * yy - copia a linha corrente
     * yG - copia até a última linha do arquivo
@@ -197,9 +192,7 @@ Atualizado por Vinicius Centurion em 2021
     * p - cola abaixo do cursor
     * P - cola acima do cursor
 
-
 * Busca de texto
-
     * /busca - Procura por expressões abaixo do cursor
     * ?busca - Procura por expressões acima do cursor
     * n - Repete a última busca na mesma direção
