@@ -147,6 +147,7 @@ Atualizado por Vinicius Centurion em 2021
     * ^ - vai para o inicio da linha
 
 * Controle do cursor
+
     * G - final do arquivo
     * #G - vai para uma linha qualquer
     * Ctrl g - informa a linha que você foi
@@ -156,6 +157,7 @@ Atualizado por Vinicius Centurion em 2021
     * Ctrl d - avança metade da página
     * L - última linha da tela
     * H - início da tela
+
 
 * Entrada de dados (ativa modo de edição)
     * a - acrescenta texto depois do cursor
